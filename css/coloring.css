@@ -372,7 +372,7 @@ a.btn-border.btn-invert,
 .de_tab.tab_methods .de_nav li.active span,
 .dark-scheme .pagination li.active a,
 .de-circle-2 {
-    border-color: var(--secondary-color);
+    border-color: #3bd671;
 }
 
 .author_list_pp:hover img{
