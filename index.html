@@ -312,7 +312,14 @@
                             <form action='#' class="row wow fadeInUp" data-wow-delay=".4s" id='form_sb' method="post" name="form_sb">
                                 <div class="col">
                                     <div class="spacer-10"></div>
-                                    <input class="form-control" id='domain_name' name='domain_name' placeholder="Domain eingeben (z.B. Servermanagementpanel.de)" type='text'> <a id="btn-submit" href="javascript:;" onclick="document.getElementById('form_sb').submit();"><i class="arrow_right"></i></a>
+                                    <script>
+                                        function openPage() {
+                                            var domain = document.getElementById('domain_name').value(); 
+                                            var url='https://nerdscave-hosting.de/cart.php?a=add&domain=register&query=' + domain; 
+                                            window.open(url,'_blank');
+                                    }
+                                    </script>
+                                    <input class="form-control" id='domain_name' name='domain_name' placeholder="Domain eingeben (z.B. Servermanagementpanel.de)" type='text'> <a id="btn-submit" href="javascript:;" onclick="openPage()"><i class="arrow_right"></i></a>
                                     <div class="clearfix"></div>
                                     <div class="spacer-10"></div>
                                     <div class="domain-ext pos-left">
