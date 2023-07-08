@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<body>
+<body class="dark-scheme">
     <html>
         <meta charset="utf-8" >
     </html>
-    <body>
+    <body class="dark-scheme">
         <h1>Captchas gallery</h1>
         <?php for ($x=0; $x<8; $x++) { ?>
             <?php for ($y=0; $y<5; $y++) { ?>
