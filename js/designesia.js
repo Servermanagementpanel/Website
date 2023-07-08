@@ -1,5 +1,5 @@
  /* --------------------------------------------------
-  * © Copyright 2021 - Hostco by Designesia
+  * © Copyright 2021 - Servermanagementpanel by NerdsCave
   * --------------------------------------------------*/
 (function($) {
 	'use strict';
