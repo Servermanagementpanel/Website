@@ -123,14 +123,14 @@
     #     name: nginx
     #     state: started
 
-    - name: Füge alle Änderungen hinzu
+    - name: Stash aktuelle Änderungen
       ansible.builtin.command: git stash
 
     - name: Wechsle zum Branch Rendered/German
       ansible.builtin.command: git checkout Rendered/German
 
-    - name: Füge alle Änderungen hinzu
-      ansible.builtin.command: git stash apply
+    - name: Wende gestashte Änderungen an und erzwinge Überschreiben
+      ansible.builtin.command: git checkout stash -- .
 
     - name: Füge alle Änderungen hinzu
       ansible.builtin.command: git add .
