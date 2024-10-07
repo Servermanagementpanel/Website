@@ -1,7 +1,7 @@
 ---
 - name: Playbook zum Einlesen und Verwenden von Variablen
   hosts: localhost
-  gather_facts: no
+  gather_facts: yes
 
   vars_files:
     - de-de.yml
