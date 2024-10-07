@@ -19,7 +19,7 @@
     - ./Datenschutz/index.html
     - ./Impressum/index.html
 
-  # tasks:
+  tasks:
   #   - name: Ping
   #     ansible.builtin.ping:
 
