@@ -9,15 +9,15 @@
   vars:
     branch: origin/Variables
     html_files_path: "."
-    header_file: "./header.html"
-    footer_file: "./footer.html"
+    header_file: "/var/lib/jenkins/workspace/Test/Build-Website-German/header.html"
+    footer_file: "/var/lib/jenkins/workspace/Test/Build-Website-German/footer.html"
     list:
-    - ./index.html
-    - ./GTC/index.html
-    - ./GTC/GTC/index.html
-    - ./contact/index.html
-    - ./Datenschutz/index.html
-    - ./Impressum/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/GTC/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/GTC/GTC/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/contact/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/Datenschutz/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/Impressum/index.html
 
   tasks:
     - name: Ping
@@ -46,7 +46,7 @@
 
     - name: Finde alle .html-Dateien im relativen Pfad
       find:
-        paths: "./"
+        paths: "/var/lib/jenkins/workspace/Test/Build-Website-German/"
         patterns: "*.html"
         recurse: yes
       register: html_files
@@ -95,7 +95,7 @@
       # become: yes
       # become_user: root
       lineinfile:
-        # path: ./index.html
+        # path: /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
         path: "{{ item }}"
         regexp: 'HEADERHEADERHEADER'
         line: "{{ header_content.content | b64decode }}"
@@ -110,7 +110,7 @@
       # become: yes
       # become_user: root
       lineinfile:
-        # path: ./index.html
+        # path: /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
         path: "{{ item }}"
         regexp: 'FOOTERFOOTERFOOTER'
         line: "{{ footer_content.content | b64decode }}"
