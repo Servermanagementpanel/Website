@@ -1,6 +1,6 @@
 ---
 - name: Playbook zum Einlesen und Verwenden von Variablen
-  hosts: staging
+  hosts: localhost
   gather_facts: no
 
   vars_files:
@@ -8,45 +8,45 @@
 
   vars:
     branch: origin/Variables
-    html_files_path: "/var/www/html/website"
-    header_file: "/var/www/html/website/header.html"
-    footer_file: "/var/www/html/website/footer.html"
+    html_files_path: "."
+    header_file: "./header.html"
+    footer_file: "./footer.html"
     list:
-    - /var/www/html/website/index.html
-    - /var/www/html/website/GTC/index.html
-    - /var/www/html/website/GTC/GTC/index.html
-    - /var/www/html/website/contact/index.html
-    - /var/www/html/website/Datenschutz/index.html
-    - /var/www/html/website/Impressum/index.html
+    - ./index.html
+    - ./GTC/index.html
+    - ./GTC/GTC/index.html
+    - ./contact/index.html
+    - ./Datenschutz/index.html
+    - ./Impressum/index.html
 
-  tasks:
-    - name: Ping
-      ansible.builtin.ping:
+  # tasks:
+  #   - name: Ping
+  #     ansible.builtin.ping:
 
-    - name: Stop NginX
-      become: yes
-      become_user: root
-      ansible.builtin.service:
-        name: nginx
-        state: stopped
+    # - name: Stop NginX
+    #   become: yes
+    #   become_user: root
+    #   ansible.builtin.service:
+    #     name: nginx
+    #     state: stopped
 
     - name: Git Fetch
       ansible.builtin.command: git fetch --all
-      become: yes
-      become_user: root
+      # become: yes
+      # become_user: root
       args:
-        chdir: /var/www/html/website
+        chdir: .
 
     - name: Git Reset
       ansible.builtin.command: git reset --hard "{{ branch }}"
-      become: yes
-      become_user: root
+      # become: yes
+      # become_user: root
       args:
-        chdir: /var/www/html/website
+        chdir: .
 
     - name: Finde alle .html-Dateien im relativen Pfad
       find:
-        paths: "/var/www/html/website/"
+        paths: "./"
         patterns: "*.html"
         recurse: yes
       register: html_files
@@ -66,8 +66,9 @@
     #     var: replacements
 
     - name: Ersetze Variablen in HTML-Dateien
-      become: yes
-      become_user: root
+      # become: yes
+      # become_user: root
+      # delegate_to: "smp-web02"
       replace:
         path: "{{ item.0.source }}"
         regexp: "{{ item.1.key }}"
@@ -91,10 +92,10 @@
       register: header_content
 
     - name: Replace placeholder with header content
-      become: yes
-      become_user: root
+      # become: yes
+      # become_user: root
       lineinfile:
-        # path: /var/www/html/website/index.html
+        # path: ./index.html
         path: "{{ item }}"
         regexp: 'HEADERHEADERHEADER'
         line: "{{ header_content.content | b64decode }}"
@@ -106,18 +107,36 @@
       register: footer_content
 
     - name: Replace placeholder with footer content
-      become: yes
-      become_user: root
+      # become: yes
+      # become_user: root
       lineinfile:
-        # path: /var/www/html/website/index.html
+        # path: ./index.html
         path: "{{ item }}"
         regexp: 'FOOTERFOOTERFOOTER'
         line: "{{ footer_content.content | b64decode }}"
       loop: "{{ list }}"
     
-    - name: Start NginX
-      become: yes
-      become_user: root
-      ansible.builtin.service:
-        name: nginx
-        state: started
+    # - name: Start NginX
+    #   become: yes
+    #   become_user: root
+    #   ansible.builtin.service:
+    #     name: nginx
+    #     state: started
+
+    - name: Wechsle zum Branch Rendered/German
+      ansible.builtin.command: git checkout Rendered/German
+
+    - name: Füge alle Änderungen hinzu
+      ansible.builtin.command: git add .
+
+    - name: Committe die Änderungen mit Timestamp
+      ansible.builtin.command: git commit -m "{{ ansible_date_time.iso8601 }} Aktualisierte gerenderte Dateien"
+
+    - name: Pushe die Änderungen
+      ansible.builtin.command: git push origin Rendered/German
+
+    - name: Wechsle zurück zum ursprünglichen Branch
+      ansible.builtin.command: git checkout "{{ branch | regex_replace('^origin/', '') }}"
+
+    - name: Git Reset zum ursprünglichen Branch
+      ansible.builtin.command: git reset --hard "{{ branch }}"
