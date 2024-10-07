@@ -20,8 +20,8 @@
     - ./Impressum/index.html
 
   tasks:
-  #   - name: Ping
-  #     ansible.builtin.ping:
+    - name: Ping
+      ansible.builtin.ping:
 
     # - name: Stop NginX
     #   become: yes
