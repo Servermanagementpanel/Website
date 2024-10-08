@@ -134,6 +134,8 @@
 
     - name: Füge alle Änderungen hinzu
       ansible.builtin.command: git add .
+      args:
+        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
     - name: Committe die Änderungen mit Timestamp
       ansible.builtin.command: git commit -m "{{ ansible_date_time.iso8601 }} Aktualisierte gerenderte Dateien"
