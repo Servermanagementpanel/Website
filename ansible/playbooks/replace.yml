@@ -123,6 +123,13 @@
     #     name: nginx
     #     state: started
 
+    - name: Remove Ansible Directord
+      ansible.builtin.file:
+        path: ansible
+        state: absent
+      args:
+        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
     - name: Stash aktuelle Änderungen
       ansible.builtin.command: git stash
       args:
