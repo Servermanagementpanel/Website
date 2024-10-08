@@ -139,7 +139,7 @@
         chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
     - name: Füge alle Änderungen hinzu
-      ansible.builtin.command: git add .
+      ansible.builtin.command: git add -- . ':!ansible'
       args:
         chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
