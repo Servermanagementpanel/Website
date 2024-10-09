@@ -1,0 +1,76 @@
+- name: Deploy
+  hosts: webserver
+  serial: 1
+  vars:
+    branch: origin/feature/new-deployment
+    html_files_path: "/var/www/html/website"
+    header_file: "/var/www/html/website/header.html"
+    footer_file: "/var/www/html/website/footer.html"
+    list:
+    - /var/www/html/website/index.html
+    - /var/www/html/website/AGB/index.html
+    - /var/www/html/website/AGB/TOS/index.html
+    - /var/www/html/website/contact/index.html
+    - /var/www/html/website/Datenschutz/index.html
+    - /var/www/html/website/Impressum/index.html
+  tasks:
+    - name: Ping
+      ansible.builtin.ping:
+
+    - name: Stop NginX
+      become: yes
+      become_user: root
+      ansible.builtin.service:
+        name: nginx
+        state: stopped
+
+    - name: Git Fetch
+      ansible.builtin.command: git fetch --all
+      become: yes
+      become_user: root
+      args:
+        chdir: /var/www/html/website
+
+    - name: Git Reset
+      ansible.builtin.command: git reset --hard "{{ branch }}"
+      become: yes
+      become_user: root
+      args:
+        chdir: /var/www/html/website
+
+    - name: Read the content of header.html
+      slurp:
+        src: "{{ header_file }}"
+      register: header_content
+
+    - name: Replace placeholder with header content
+      become: yes
+      become_user: root
+      lineinfile:
+        # path: /var/www/html/website/index.html
+        path: "{{ item }}"
+        regexp: 'HEADERHEADERHEADER'
+        line: "{{ header_content.content | b64decode }}"
+      loop: "{{ list }}"
+
+    - name: Read the content of footer.html
+      slurp:
+        src: "{{ footer_file }}"
+      register: footer_content
+
+    - name: Replace placeholder with footer content
+      become: yes
+      become_user: root
+      lineinfile:
+        # path: /var/www/html/website/index.html
+        path: "{{ item }}"
+        regexp: 'FOOTERFOOTERFOOTER'
+        line: "{{ footer_content.content | b64decode }}"
+      loop: "{{ list }}"
+    
+    - name: Start NginX
+      become: yes
+      become_user: root
+      ansible.builtin.service:
+        name: nginx
+        state: started
