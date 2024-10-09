@@ -1,362 +1,9 @@
-<!DOCTYPE html>
-<html lang="de-DE">
-
-<head>
-    <title>Servermanagementpanel | VPS & KVM Hosting</title>
-    <link rel="icon" href="https://www.servermanagementpanel.de/images/icon.png" type="image/gif" sizes="16x16">
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
-    <meta content="Servermanagementpanel | VPS & KVM Hosting" name="description" >
-    <meta content="servermanagementpanel" name="keywords" >
-    <meta content="Moritz Mantel" name="author" >
-    <!-- CSS Files
-    ================================================== -->
-    <link href="https://www.servermanagementpanel.de/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
-    <link href="https://www.servermanagementpanel.de/css/mdb.min.css" rel="stylesheet" type="text/css" id="mdb" >
-    <link href="https://www.servermanagementpanel.de/css/plugins.css" rel="stylesheet" type="text/css" >
-    <link href="https://www.servermanagementpanel.de/css/style.css" rel="stylesheet" type="text/css" >
-    <link href="https://www.servermanagementpanel.de/css/coloring.css" rel="stylesheet" type="text/css" >
-    <link href="https://www.servermanagementpanel.de/assets/css/fontawesome.css" rel="stylesheet" type="text/css" >
-    <link href="https://www.servermanagementpanel.de/assets/css/brands.css" rel="stylesheet" type="text/css" >
-    <link href="https://www.servermanagementpanel.de/assets/css/solid.css" rel="stylesheet" type="text/css" >
-    <!-- color scheme -->
-    <link id="colors" href="https://www.servermanagementpanel.de/css/colors/scheme-07.css" rel="stylesheet" type="text/css" >
-</head>
-
-<body class="dark-scheme">
-    <div id="wrapper">
-        
-        <!-- page preloader begin -->
-        <div id="de-loader"></div>
-        <!-- page preloader close -->
-
-        <!-- header begin -->
-        <header class="transparent has-topbar">
-            <div id="topbar" class="text-light">
-                <div class="container">
-                    <div class="topbar-left xs-hide">
-                        <span class="topbar-widget">
-                            <a href="#">Preiswertes Serverhosting!</a>
-                        </span>
-                    </div>
-                
-                    <div class="topbar-right">
-                        <div class="topbar-widget"><a href="mailto:kontakt@servermanagementpanel.de"><i class="fa fa-envelope"></i>kontakt@servermanagementpanel.de</a></div>
-                        <div class="topbar-widget">
-                                <a href="https://x.com/Servermgmtpanel"><i class="fa-brands fa-twitter fa-lg" style="padding-top: 2px;"></i></a>
-                                <a href="#"><i class="fa-brands fa-bluesky fa-lg" style="padding-top: 2px;padding-left: 8px;"></i></a>
-                                <a href="#"><i class="fa-brands fa-mastodon fa-lg" style="padding-top: 2px;padding-left:12px;"></i></a>
-                                <a href="#"><i class="fa-brands fa-tiktok fa-lg" style="padding-top: 2px;padding-left: 9px;"></i></a>
-                                <a href="#"><i class="fa-brands fa-discord fa-lg" style="padding-top: 2px;padding-left: 8px;"></i></a>
-                                <a href="#"><i class="fa-brands fa-youtube fa-lg" style="padding-top: 2px;padding-left: 8px;"></i></a>   
-                        </div>
-                    </div>  
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="de-flex sm-pt10">
-                            <div class="de-flex-col">
-                                <div class="de-flex-col">
-                                    <!-- logo begin -->
-                                    <div id="logo">
-                                        <a href="https://www.servermanagementpanel.de">
-                                            <img class="logo-main" src="https://www.servermanagementpanel.de/images/Whitelogo-nobackground.png" alt="Servermanagementpanel.de Logo" width="265">
-                                            <img class="logo-mobile" src="https://www.servermanagementpanel.de/images/Whitelogo-nobackground.png" alt="Servermanagementpanel.de Logo" width="128">
-                                        </a>
-                                    </div>
-                                    <!-- logo close -->
-                                </div>
-                            </div>
-                            <div class="de-flex-col header-col-mid">
-                                <ul id="mainmenu">
-                                    <li><a class="menu-item" href="https://servermanagementpanel.de/">Home</a></li>
-                                    <li><a class="menu-item" href="https://www.servermanagementpanel.de/">Hosting</a>
-                                        <ul class="mega">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="sb-menu p-4 pb-0">
-                                                        <div class="row g-custom-x">
-                                                            <div class="col-lg-4 mb-sm-30">
-                                                                <h4>Hosting einfach gemacht</h4>
-                                                                <p>Hochperformantes, Sicheres Hosting für deine Website. Miete jetzt deinen schnellen VPS und lege los! Ultra Schnelles NVMe SSD Hosting.</p>
-                                                            </div>
-                                                            <div class="col-lg-4">
-                                                                <a class="box-icon mb20" href="https://www.servermanagementpanel.de/">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/server-svgrepo-com.svg" alt="KVM VPS Hosting">
-                                                                    <div class="d-inner">
-                                                                        <h4>KVM VPS Hosting</h4>
-                                                                        Einfaches und Starkes Hosting für jeden!
-                                                                    </div>
-                                                                </a>
-                                                                <!-- <a class="box-icon mb20" href="hosting-cloud.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/cloud-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>Cloud Hosting</h4>
-                                                                        For more speed & less downtime.
-                                                                    </div>
-                                                                </a> -->
-                                                            </div>
-                                                            <!-- <div class="col-lg-4">
-                                                                <a class="box-icon mb20" href="hosting-apps.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/server-2-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>VPS Hosting</h4>
-                                                                        For power and flexibility you need.
-                                                                    </div>
-                                                                </a>
-                                                                <a class="box-icon mb20" href="hosting-wordpress.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/wordpress-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>WordPress Hosting</h4>
-                                                                        Optimized hosting for WordPress sites.
-                                                                    </div>
-                                                                </a>
-                                                            </div> -->
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <!--<li><a class="menu-item" href="domain.html">Domain</a>
-                                        <ul class="mega">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="sb-menu p-4">
-                                                        <div class="row">
-                                                            <div class="col-lg-3">
-                                                                <a class="box-icon mb20" href="domain.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/domain-registration-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>Domain Registration</h4>
-                                                                        Search for your perfect domain name.
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <a class="box-icon mb20" href="domain-transfer.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/transfer-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>Domain Transfer</h4>
-                                                                        Transfer your domain with easy steps.
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <a class="box-icon mb20" href="domain-pricing.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/price-tag-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>Domain Pricing</h4>
-                                                                        Complete list of domain pricing.
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            <div class="col-lg-3">
-                                                                <a class="box-icon mb20" href="domain-top-level.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/www-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>Top Level Domain</h4>
-                                                                        Best domain to start your business.
-                                                                    </div>
-                                                                </a>
-                                                            </div>   
-
-                                                            <div class="clearfix"></div>
-
-                                                            <div class="col-md-2 col-sm-3 col-6 mb-sm-30">
-                                                                <div class="box-url text-center">
-                                                                    <span class="tld-domain">.com</span>
-                                                                    <p class="tld-subtitle">Special offer</p>
-                                                                    <p class="tld-price id-color">$6.95/yr</p>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-md-2 col-sm-3 col-6 mb-sm-30">
-                                                                <div class="box-url text-center">
-                                                                    <span class="tld-domain">.net</span>
-                                                                    <p class="tld-subtitle">Special offer</p>
-                                                                    <p class="tld-price id-color">$6.95/yr</p>
-                                                                </div>
-                                                            </div>       
-
-                                                            <div class="col-md-2 col-sm-3 col-6 mb-sm-30">
-                                                                <div class="box-url text-center">
-                                                                    <span class="tld-domain">.live</span>
-                                                                    <p class="tld-subtitle">Special offer</p>
-                                                                    <p class="tld-price id-color">$6.95/yr</p>
-                                                                </div>
-                                                            </div>    
-
-                                                            <div class="col-md-2 col-sm-3 col-6 mb-sm-30">
-                                                                <div class="box-url text-center">
-                                                                    <span class="tld-domain">.club</span>
-                                                                    <p class="tld-subtitle">Special offer</p>
-                                                                    <p class="tld-price id-color">$6.95/yr</p>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-md-2 col-sm-3 col-6 mb-sm-30">
-                                                                <div class="box-url text-center">
-                                                                    <span class="tld-domain">.store</span>
-                                                                    <p class="tld-subtitle">Special offer</p>
-                                                                    <p class="tld-price id-color">$6.95/yr</p>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-md-2 col-sm-3 col-6 mb-sm-30">
-                                                                <div class="box-url text-center">
-                                                                    <span class="tld-domain">.xyz</span>
-                                                                    <p class="tld-subtitle">Special offer</p>
-                                                                    <p class="tld-price id-color">$6.95/yr</p>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li> -->
-                                    <!-- <li><a class="menu-item" href="website-builder.html">Websites</a></li> -->
-                                    <li><a class="menu-item" href="https://cp.servermanagementpanel.de/support">Support</a></li>
-                                    <li><a class="menu-item" href="https://www.servermanagementpanel.de/">About Us</a>
-                                        <ul class="mega">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="sb-menu p-4 pb-0">
-                                                        <div class="row g-custom-x">
-                                                            <div class="col-lg-4 mb-sm-30">
-                                                                <h4>Hosting einfach gemacht</h4>
-                                                                <p>Hochperformantes, Sicheres Hosting für deine Website. Miete jetzt deinen schnellen VPS und lege los! Ultra Schnelles NVMe SSD Hosting.</p>
-                                                            </div>
-                                                            <div class="col-lg-4">
-                                                                <a class="box-icon mb20" href="https://www.servermanagementpanel.de/">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/server-svgrepo-com.svg" alt="KVM VPS Hosting">
-                                                                    <div class="d-inner">
-                                                                        <h4>KVM VPS Hosting</h4>
-                                                                        Einfaches und Starkes Hosting für jeden!
-                                                                    </div>
-                                                                </a>
-                                                                <!-- <a class="box-icon mb20" href="hosting-cloud.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/cloud-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>Cloud Hosting</h4>
-                                                                        For more speed & less downtime.
-                                                                    </div>
-                                                                </a> -->
-                                                            </div>
-                                                            <!-- <div class="col-lg-4">
-                                                                <a class="box-icon mb20" href="hosting-apps.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/server-2-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>VPS Hosting</h4>
-                                                                        For power and flexibility you need.
-                                                                    </div>
-                                                                </a>
-                                                                <a class="box-icon mb20" href="hosting-wordpress.html">
-                                                                    <img src="https://www.servermanagementpanel.de/images/svg-blue/wordpress-svgrepo-com.svg" alt="">
-                                                                    <div class="d-inner">
-                                                                        <h4>WordPress Hosting</h4>
-                                                                        Optimized hosting for WordPress sites.
-                                                                    </div>
-                                                                </a>
-                                                            </div> -->
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="https://www.servermanagementpanel.de/">Legal</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="https://www.servermanagementpanel.de/AGB/TOS/">Terms of Service</a>
-                                                <ul>
-                                                    <li><a class="menu-item" href="https://www.servermanagementpanel.de/AGB/TOS/">TOS - German</a></li>
-                                                    <li><a class="menu-item" href="https://www.servermanagementpanel.de/AGB/TOS/">TOS - English</a></li>
-                                                    <li><a class="menu-item" href="https://www.servermanagementpanel.de/AGB/TOS/">TOS - ...</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="menu-item" href="https://www.servermanagementpanel.de/AGB/">AGB</a>
-                                                <ul>
-                                                    <li><a class="menu-item" href="https://www.servermanagementpanel.de/AGB/">AGB - German</a></li>
-                                                    <li><a class="menu-item" href="https://www.servermanagementpanel.de/AGB/">AGB - English</a></li>
-                                                    <li><a class="menu-item" href="https://www.servermanagementpanel.de/AGB/">AGB - ...r</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="menu-item" href="https://www.servermanagementpanel.de/Impressum/">Impressum</a></li>
-                                            <li><a class="menu-item" href="https://www.servermanagementpanel.de/Datenschutz/">Datenschutz</a></li>
-                                                <ul>
-                                                    <li><a class="menu-item" href="404.html">404 Light</a></li>
-                                                    <li><a class="menu-item" href="404-dark.html">404 Dark</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <!--<li><a class="menu-item" href="#">Pages</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="news-standart-right-sidebar.html">News Standard</a>
-                                                <ul>
-                                                    <li><a class="menu-item" href="news-standart-right-sidebar.html">Right Sidebar</a></li>
-                                                    <li><a class="menu-item" href="news-standart-left-sidebar.html">Left Sidebar</a></li>
-                                                    <li><a class="menu-item" href="news-standart-no-sidebar.html">No Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="menu-item" href="news-grid-right-sidebar.html">News Grid</a>
-                                                <ul>
-                                                    <li><a class="menu-item" href="news-grid-right-sidebar.html">Right Sidebar</a></li>
-                                                    <li><a class="menu-item" href="news-grid-left-sidebar.html">Left Sidebar</a></li>
-                                                    <li><a class="menu-item" href="news-grid-no-sidebar.html">No Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a class="menu-item" href="https://servermanagementpanel.de/contact/">Contact</a></li>
-                                            <li><a class="menu-item" href="login.html">Login</a></li>
-                                            <li><a class="menu-item" href="register.html">Register</a></li>
-                                            <li><a class="menu-item" href="#">404</a>
-                                                <ul>
-                                                    <li><a class="menu-item" href="404.html">404 Light</a></li>
-                                                    <li><a class="menu-item" href="404-dark.html">404 Dark</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="#">More</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="pricing-table.html">Pricing Table</a></li>
-                                            <li><a class="menu-item" href="badge.html">Badge</a></li>
-                                            <li><a class="menu-item" href="cards.html">Cards</a></li>
-                                            <li><a class="menu-item" href="counters.html">Counters</a></li>
-                                            <li><a class="menu-item" href="gallery-popup.html">Gallery Popup</a></li>
-                                            <li><a class="menu-item" href="icons-elegant.html">Icons Elegant</a></li>
-                                            <li><a class="menu-item" href="icons-etline.html">Icons Etline</a></li>
-                                            <li><a class="menu-item" href="icons-font-awesome.html">Icons Font Awesome</a></li>
-                                            <li><a class="menu-item" href="map.html">Map</a></li>
-                                            <li><a class="menu-item" href="modal.html">Modal</a></li>
-                                            <li><a class="menu-item" href="popover.html">Popover</a></li>
-                                            <li><a class="menu-item" href="tabs.html">Tabs</a></li>
-                                            <li><a class="menu-item" href="tooltips.html">Tooltips</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>-->
-                            </div>
-                            <div class="de-flex-col">
-                                <div class="menu_side_area">
-                                    <a href="https://cp.servermanagementpanel.de/order" class="btn-main">Kundenlogin</a>
-                                    <span id="menu-btn"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+HEADERHEADERHEADER
         <!-- header close -->
         <!-- content begin -->
         <div class="no-bottom no-top" id="icons-etline.html">
             <div id="top"></div>
-            <section id="section-hero" class="v-center" aria-label="section" data-bgimage='url(https://www.servermanagementpanel.de/images/background/dark-1.jpg) top #101224'>
+            <section id="section-hero" class="v-center" aria-label="section" data-bgimage='url(VARIABLE-WEBSITEURL/images/background/dark-1.jpg) top #101224'>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-10 offset-lg-1 text-center">
@@ -419,7 +66,7 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <a class="box-icon s2 mb20" href="hosting-shared.html">
-                                <img src="https://www.servermanagementpanel.de/images/svg-blue/server-svgrepo-com.svg" alt="">
+                                <img src="VARIABLE-WEBSITEURL/images/svg-blue/server-svgrepo-com.svg" alt="ServerIcon">
                                 <div class="d-inner">
                                     <h4>Zuverlässige KVM V-Server</h4>
                                     Einfaches und Starkes Hosting für jeden.
@@ -428,7 +75,7 @@
                         </div>
                         <div class="col-lg-3">
                             <a class="box-icon s2 mb20" href="hosting-cloud.html">
-                                <img src="https://www.servermanagementpanel.de/images/svg-blue/cloud-svgrepo-com.svg" alt="">
+                                <img src="VARIABLE-WEBSITEURL/images/svg-blue/cloud-svgrepo-com.svg" alt="ServerIcon">
                                 <div class="d-inner">
                                     <h4>Leistungsstarke Server</h4>
                                     Höchste Geschwindigkeit, Niedrigste Downtime.
@@ -437,7 +84,7 @@
                         </div>
                         <div class="col-lg-3">
                             <a class="box-icon s2 mb20" href="hosting-apps.html">
-                                <img src="https://www.servermanagementpanel.de/images/svg-blue/server-2-svgrepo-com.svg" alt="">
+                                <img src="VARIABLE-WEBSITEURL/images/svg-blue/server-2-svgrepo-com.svg" alt="ServerIcon">
                                 <div class="d-inner">
                                     <h4>High Level DDoS-Schutz</h4>
                                     Deine Server sind zu jeder Zeit Top geschützt.
@@ -446,7 +93,7 @@
                         </div>
                         <div class="col-lg-3">
                             <a class="box-icon s2 mb20" href="hosting-wordpress.html">
-                                <img src="https://www.servermanagementpanel.de/images/svg-blue/wordpress-svgrepo-com.svg" alt="">
+                                <img src="VARIABLE-WEBSITEURL/images/svg-blue/wordpress-svgrepo-com.svg" alt="ServerIcon">
                                 <div class="d-inner">
                                     <h4>Perfekt für deine Website</h4>
                                     Optimiert für Content Management Systeme wie WordPress
@@ -500,7 +147,7 @@
                                         <li>4 shared Kerne</li>
                                         <li>2 GB ECC RAM</li>
                                         <li>25GB SSD Storage</li>
-                                        <li>2,5 Gbit/s Uplink (shared)</li>
+                                        <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
                                 </div>
@@ -509,10 +156,10 @@
                                     <ul class="d-list">
                                         <li>1 IPv4 Adresse</li>
                                         <li>1 IPv6 /48 Subnetz</li>
-                                        <li>unbegrenzt* Traffic</li>
+                                        <li>150TB Traffic*</li>
                                         <li>3,2 Tbit/s DDoS Schutz</li>
                                         <li>Keine Vertragsbindung</li>
-                                        <li>Standort: Eygelshoven, <br> bei Aachen</li>
+                                        <li>Standort: Eygelshoven, <br>bei Aachen</li>
                                     </ul>
                                 </div>
                             </div>
@@ -539,7 +186,7 @@
                                         <li>6 shared Kerne</li>
                                         <li>4 GB ECC RAM</li>
                                         <li>50GB SSD Storage</li>
-                                        <li>2,5 Gbit/s Uplink (shared)</li>
+                                        <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
                                 </div>
@@ -548,10 +195,10 @@
                                     <ul class="d-list">
                                         <li>1 IPv4 Adresse</li>
                                         <li>1 IPv6 /48 Subnetz</li>
-                                        <li>unbegrenzt* Traffic</li>
+                                        <li>150TB Traffic*</li>
                                         <li>3,2 Tbit/s DDoS Schutz</li>
                                         <li>Keine Vertragsbindung</li>
-                                        <li>Standort: Eygelshoven, <br> bei Aachen</li>
+                                        <li>Standort: Eygelshoven, <br>bei Aachen</li>
                                     </ul>
                                 </div>
                             </div>
@@ -580,7 +227,7 @@
                                         <li>6 shared Kerne</li>
                                         <li>6 GB ECC RAM</li>
                                         <li>75 GB SSD Storage</li>
-                                        <li>2,5 Gbit/s Uplink (shared)</li>
+                                        <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
                                 </div>
@@ -589,10 +236,10 @@
                                     <ul class="d-list">
                                         <li>1 IPv4 Adresse</li>
                                         <li>1 IPv6 /48 Subnetz</li>
-                                        <li>unbegrenzt* Traffic</li>
+                                        <li>150TB Traffic*</li>
                                         <li>3,2 Tbit/s DDoS Schutz</li>
                                         <li>Keine Vertragsbindung</li>
-                                        <li>Standort: Eygelshoven, <br> bei Aachen</li>
+                                        <li>Standort: Eygelshoven, <br>bei Aachen</li>
                                     </ul>
                                 </div>
                             </div>
@@ -620,7 +267,7 @@
                                         <li>6 shared Kerne</li>
                                         <li>8 GB ECC RAM</li>
                                         <li>100 GB SSD Storage</li>
-                                        <li>2,5 Gbit/s Uplink (shared)</li>
+                                        <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
                                 </div>
@@ -629,10 +276,10 @@
                                     <ul class="d-list">
                                         <li>1 IPv4 Adresse</li>
                                         <li>1 IPv6 /48 Subnetz</li>
-                                        <li>unbegrenzt* Traffic</li>
+                                        <li>150TB Traffic*</li>
                                         <li>3,2 Tbit/s DDoS Schutz</li>
                                         <li>Keine Vertragsbindung</li>
-                                        <li>Standort: Eygelshoven, <br> bei Aachen</li>
+                                        <li>Standort: Eygelshoven, <br>bei Aachen</li>
                                     </ul>
                                 </div>
                             </div>
@@ -659,7 +306,7 @@
                                         <li>6 shared Kerne</li>
                                         <li>12 GB ECC RAM</li>
                                         <li>150 GB SSD Storage</li>
-                                        <li>2,5 Gbit/s Uplink (shared)</li>
+                                        <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
                                 </div>
@@ -668,10 +315,10 @@
                                     <ul class="d-list">
                                         <li>1 IPv4 Adresse</li>
                                         <li>1 IPv6 /48 Subnetz</li>
-                                        <li>unbegrenzt* Traffic</li>
+                                        <li>150TB Traffic*</li>
                                         <li>3,2 Tbit/s DDoS Schutz</li>
                                         <li>Keine Vertragsbindung</li>
-                                        <li>Standort: Eygelshoven, <br> bei Aachen</li>
+                                        <li>Standort: Eygelshoven, <br>bei Aachen</li>
                                     </ul>
                                 </div>
                             </div>
@@ -698,7 +345,7 @@
                                         <li>6 shared Kerne</li>
                                         <li>16 GB ECC RAM</li>
                                         <li>200 GB SSD Storage</li>
-                                        <li>2,5 Gbit/s Uplink (shared)</li>
+                                        <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
                                 </div>
@@ -707,10 +354,10 @@
                                     <ul class="d-list">
                                         <li>1 IPv4 Adresse</li>
                                         <li>1 IPv6 /48 Subnetz</li>
-                                        <li>unbegrenzt* Traffic</li>
+                                        <li>150TB Traffic*</li>
                                         <li>3,2 Tbit/s DDoS Schutz</li>
                                         <li>Keine Vertragsbindung</li>
-                                        <li>Standort: Eygelshoven, <br> bei Aachen</li>
+                                        <li>Standort: Eygelshoven, <br>bei Aachen</li>
                                     </ul>
                                 </div>
                             </div>
@@ -737,7 +384,7 @@
                                         <li>8 shared Kerne</li>
                                         <li>24 GB ECC RAM</li>
                                         <li>300 GB SSD Storage</li>
-                                        <li>2,5 Gbit/s Uplink (shared)</li>
+                                        <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
                                 </div>
@@ -746,10 +393,10 @@
                                     <ul class="d-list">
                                         <li>1 IPv4 Adresse</li>
                                         <li>1 IPv6 /48 Subnetz</li>
-                                        <li>unbegrenzt* Traffic</li>
+                                        <li>150TB Traffic*</li>
                                         <li>3,2 Tbit/s DDoS Schutz</li>
                                         <li>Keine Vertragsbindung</li>
-                                        <li>Standort: Eygelshoven, <br> bei Aachen</li>
+                                        <li>Standort: Eygelshoven, <br>bei Aachen</li>
                                     </ul>
                                 </div>
                             </div>
@@ -776,7 +423,7 @@
                                         <li>12 shared Kerne</li>
                                         <li>32 GB ECC RAM</li>
                                         <li>400 GB SSD Storage</li>
-                                        <li>2,5 Gbit/s Uplink (shared)</li>
+                                        <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
                                 </div>
@@ -785,16 +432,16 @@
                                     <ul class="d-list">
                                         <li>1 IPv4 Adresse</li>
                                         <li>1 IPv6 /48 Subnetz</li>
-                                        <li>unbegrenzt* Traffic</li>
+                                        <li>150TB Traffic*</li>
                                         <li>3,2 Tbit/s DDoS Schutz</li>
                                         <li>Keine Vertragsbindung</li>
-                                        <li>Standort: Eygelshoven, <br> bei Aachen</li>
+                                        <li>Standort: Eygelshoven, <br>bei Aachen</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> <p style="text-align: center;">* Siehe AGB, bei einem Trafficvolumen über 500mbit/s im Monatsdurchschnitt kann Limitiert werden.</p>
+                </div> <p style="text-align: center;">* Auf Wunsch Unlimited Traffic ohne Aufpreis mit Begrenzung auf 1Gbit/s per Ticket möglich.</p>
             </section>
             <section id="section-steps" class="no-top">
                 <div class="container">
@@ -813,8 +460,8 @@
                         </div>
                         <div class="col-md-3">
                             <i class="icon-refresh de-icon mb20"></i>
-                            <h4>>99.8% Server Uptime</h4>
-                            <p>Wir Garantieren eine Verfügbarkeit über 99,8% auf alle VServer. Dank zahlreicher Redundanzen im Netzwerk, Storage und der Stromversorgung sind ausfälle quasi ausgeschlossen.</p>
+                            <h4>>99% Server Uptime</h4>
+                            <p>Wir Garantieren eine Verfügbarkeit über 99% auf alle VServer. Dank zahlreicher Redundanzen im Netzwerk, Storage und der Stromversorgung sind ausfälle quasi ausgeschlossen.</p>
                         </div>
                         <div class="col-md-3">
                             <i class="icon-layers de-icon mb20"></i>
@@ -909,7 +556,7 @@
                                         <div class="de-circle-1"></div>
                                         <div class="de-circle-2"></div>
                                     </div>
-                                    <img src="https://www.servermanagementpanel.de/images/misc/map-2.png" class="img-fluid" alt="">
+                                    <img src="VARIABLE-WEBSITEURL/images/misc/map-2.png" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
@@ -934,7 +581,7 @@
                                         <p>Ich habe beim Servermanagementpanel eine unschlagbare Uptime. Die einfache Kommunikation und die unverbindliche Bereitstellung von Testinstanzen ohne lange Laufzeiten waren der ausschlaggebende Grund, von einem großen Provider zum Servermanagementpanel zu wechseln.
                                         </p>
                                         <a href="https://jochen-sauer.com/"> <div class="de_testi_by">
-                                           <img alt="Jochen, Sauer IT-Consulting" class="rounded-circle" src="https://www.servermanagementpanel.de/images/people/1.jpg"> <span>Jochen, Sauer IT-Consulting</span>
+                                           <img alt="Jochen, Sauer IT-Consulting" class="rounded-circle" src="VARIABLE-WEBSITEURL/images/people/1.jpg"> <span>Jochen, Sauer IT-Consulting</span>
                                         </div> </a>
                                     </blockquote>
                                 </div>
@@ -945,7 +592,7 @@
                                         <h4>Zuverlässiges Hosting</h4>
                                         <p>Sehr zufrieden mit Leistung und Service, nutze die dienste selber seit mittlerweile zwei Jahren. Die Preise sind absolut gerechtfertigt und dazu noch günstig.</p>
                                         <a href="https://svenw.de/"> <div class="de_testi_by">
-                                            <img alt="Sven Würth" class="rounded-circle" src="https://www.servermanagementpanel.de/images/people/2.jpg"> <span>Sven Würth</span>
+                                            <img alt="Sven Würth" class="rounded-circle" src="VARIABLE-WEBSITEURL/images/people/2.jpg"> <span>Sven Würth</span>
                                         </div> </a>
                                     </blockquote>
                                 </div>
@@ -956,7 +603,7 @@
                                         <h4>Flexible Preisgestaltung </h4>
                                         <p>Wir sind vom Servermanagementpanel überzeugt. Flexible Preisgestaltung und schnelle Reaktionszeiten von Personal und Hardware sind herausragend gegenüber der Konkurrenz.</p>
                                         <a href="https://thegeekfreaks.de/"> <div class="de_testi_by">
-                                            <img alt="Alex, TheGeekFreaks GmbH" class="rounded-circle" src="https://www.servermanagementpanel.de/images/people/4.jpg"> <span>Alex, TheGeekFreaks GmbH</span>
+                                            <img alt="Alex, TheGeekFreaks GmbH" class="rounded-circle" src="VARIABLE-WEBSITEURL/images/people/4.jpg"> <span>Alex, TheGeekFreaks GmbH</span>
                                         </div> </a>
                                     </blockquote>
                                 </div>
@@ -967,7 +614,7 @@
                                         <h4>Ausfallsichere Dienste</h4>
                                         <p>Ich bin seit einigen Jahren Kunde, Schnelle & kompetente Fehler Behebung. <br>Host Wechsel wird hier leicht gemacht, wir beziehen unsere Domain, Hosting, einen komplette E-Mail Server ink. Spam Filter uvm.</p>
                                         <a href="https://schwelm.digital/"> <div class="de_testi_by">
-                                            <img alt="Daniel, Schwelm.Digital" class="rounded-circle" src="https://www.servermanagementpanel.de/images/people/3.jpg"> <span>Daniel, Schwelm.Digital</span>
+                                            <img alt="Daniel, Schwelm.Digital" class="rounded-circle" src="VARIABLE-WEBSITEURL/images/people/3.jpg"> <span>Daniel, Schwelm.Digital</span>
                                         </div> </a>
                                     </blockquote>
                                 </div>
@@ -980,7 +627,7 @@
                 <div class="container">
                     <div class="row align-items-center g-custom-x">
                         <div class="col-lg-4 d-none d-lg-block d-xl-block  text-center">
-                            <img class="relative img-fluid mt-60" src="https://www.servermanagementpanel.de/images/misc/1.png" alt="">
+                            <img class="relative img-fluid mt-60" src="VARIABLE-WEBSITEURL/images/misc/1.png" alt="">
                         </div>
 
                         <div class="col-lg-4 col-md-6">
@@ -1003,155 +650,7 @@
         </div>
         <!-- content close -->
         <a href="#" id="back-to-top"></a>
-        <!-- footer begin -->
-        <footer>
-            <div class="container">
-                <div class="row g-custom-x">
-                    <div class="col-lg-4">
-                        <a href="https://servermanagementpanel.de/">
-                            <img src="https://www.servermanagementpanel.de/images/Whitelogo-nobackground.png" alt="Servermanagementpanel.de Logo" width="265">
-                            <div class="spacer-20"></div>
-                            <p>Wir sind das Servermanagementpanel, ein Webhosting-Unternehmen, das dir rund um die Uhr persönlichen Kundensupport bietet. Wir stehen bereit, um dir die besten Hosting-Lösungen für deine individuellen Bedürfnisse anzubieten. Egal, ob du eine private Webseite betreibst oder ein Unternehmen leitest, bei uns bist du in guten Händen. Unsere hochmodernen Rechenzentren sind weltweit verteilt, damit deine Website jederzeit erreichbar ist. Du hast die Wahl zwischen Shared Hosting, VPS Hosting oder Cloud Hosting, ganz nach deinen Vorlieben und Anforderungen. Erlebe mit uns ein Hosting-Erlebnis, das dich rundum zufriedenstellen wird.</p>
-                        </a>
-                        <div class="spacer-10"></div>
-                        <div class="widget">
-                            <h5>We Accepted</h5>
-                            <img class="img-card-sm" src="https://www.servermanagementpanel.de/images/payments-logo/visa.png" alt="">
-                            <img class="img-card-sm" src="https://www.servermanagementpanel.de/images/payments-logo/master-card.png" alt="">
-                            <img class="img-card-sm" src="https://www.servermanagementpanel.de/images/payments-logo/jcb.png" alt="">
-                            <img class="img-card-sm" src="https://www.servermanagementpanel.de/images/payments-logo/paypal.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="row">
-                            <div class="col-lg-6">
-                        <div class="widget">
-                            <h5>Hosting</h5>
-                            <ul>
-                                <li><a href="#">Web Hosting</a></li>
-                                <li><a href="#">VPS Hosting</a></li>
-                                <li><a href="#">Cloud Hosting</a></li>
-                                <li><a href="#">WordPress Hosting</a></li>
-                                <li><a href="#">Email Hosting</a></li>
-                                <li><a href="#">CMS Hosting</a></li>
-                                <li><a href="#">Ecommerce Hosting</a></li>
-                                <li><a href="#">Website Builder</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="widget">
-                            <h5>Company</h5>
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Affiliates</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Community</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Partners</a></li>
-                                <li><a href="#">Press Releases</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="widget">
-                            <h5>Wir besitzen unsere Hardware und die IPs!</h5>
-                            <p>Mit AS216474 betreiben wir unser eigenes Netzwerk, besitzen unsere eigenen IP-Adressen und können über unseren Upstreamprovider sowohl Fulltable als auch defaultroute BGP Sessions anbieten.</p>
-                            <p>- BYOIP auf Anfrage kostenlos möglich <br>
-                               - BYOASN auf Anfrage kostenlos möglich <br>
-                               - buchen von weiteren IP-Adressen auf Anfrage möglich</p>
-                            <!--
-                            <h5>Newsletter</h5>
-                            <p>Signup for our newsletter to get the latest news in your inbox.</p>
-                            <form action="blank.php" class="row form-dark" id="form_subscribe" method="post" name="form_subscribe">
-                                <div class="col text-center">
-                                    <input class="form-control" id="txt_subscribe" name="txt_subscribe" placeholder="enter your email" type="text" > <a href="#" id="btn-subscribe"><i class="arrow_right bg-color-secondary"></i></a>
-                                    <div class="clearfix"></div>
-                                </div>
-                            </form>
-                            <div class="spacer-10"></div>
-                            <small>Your email is safe with us. We don't spam.</small>-->
-                            <div class="spacer-30"></div>
-                            <div class="widget">
-                                <h5>Folge uns auf:</h5>
-                                <div class="social-icons">
-                                    <a href="https://x.com/Servermgmtpanel"><i class="fa-brands fa-twitter fa-lg" style="padding-top: 16px;"></i></a>
-                                    <a href="#"><i class="fa-brands fa-bluesky fa-lg" style="padding-top: 16px;padding-left: 8px;"></i></a>
-                                    <a href="#"><i class="fa-brands fa-mastodon fa-lg" style="padding-top: 16px;"></i></a>
-                                    <a href="#"><i class="fa-brands fa-tiktok fa-lg" style="padding-top: 16px;"></i></a>
-                                    <a href="#"><i class="fa-brands fa-discord fa-lg" style="padding-top: 16px;padding-left: 8px;"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube fa-lg" style="padding-top: 16px;padding-left: 8px;"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="subfooter">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="de-flex">
-                                <div class="de-flex-col">
-                                    <a href="index.html">
-                                        Copyright 2024 - Servermanagementpanel
-                                    </a>
-                                </div>
-                                <ul class="menu-simple">
-                                    <li><a href="https://www.servermanagementpanel.de/AGB">AGB</a></li>
-                                    <li><a href="https://www.servermanagementpanel.de/Datenschutz">Datenschutz</a></li>
-                                    <li><a href="https://www.servermanagementpanel.de/Impressum">Impressum</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer close -->
-    </div>
-    
-    <!-- Javascript Files
-    ================================================== -->
-    <script src="https://www.servermanagementpanel.de/js/plugins.js"></script>
-    <script src="https://www.servermanagementpanel.de/js/designesia.js"></script>
-
-    <script>
-    jQuery(document).ready(function() {
-        $(function() {
-            // jquery typed plugin
-            $(".typed").typed({
-                stringsElement: $('.typed-strings'),
-                typeSpeed: 100,
-                backDelay: 500,
-                loop: true,
-                contentType: 'html', // or text
-                // defaults to false for infinite loop
-                loopCount: false,
-                callback: function() { null; },
-                resetCallback: function() { newTyped(); }
-            });
-        });
-    });
-    </script>
-
-    <!-- COOKIES PLUGIN deaktiviert
-    <script>
-      $(document).ready(function() {
-        $.cookit({
-          messageColor: '#fff',
-          linkColor: '#38b1ed',
-          buttonColor: '#38b1ed',
-          messageText: "This website uses <b>cookies</b> to ensure you get the best experience on our website.",
-          linkText: "Learn more",
-          linkUrl: "index.html",
-          buttonText: "I accept",
-        });
-      });
-    </script>-->
+FOOTERFOOTERFOOTER
 </body>
 
 </html>

@@ -1,0 +1,178 @@
+---
+- name: Playbook zum Einlesen und Verwenden von Variablen
+  hosts: localhost
+  gather_facts: yes
+
+  vars_files:
+    - de-de.yml
+
+  vars:
+    branch: origin/Variables
+    html_files_path: "."
+    header_file: "/var/lib/jenkins/workspace/Test/Build-Website-German/header.html"
+    footer_file: "/var/lib/jenkins/workspace/Test/Build-Website-German/footer.html"
+    list:
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/GTC/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/GTC/GTC/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/contact/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/Datenschutz/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/Impressum/index.html
+
+  tasks:
+    - name: Ping
+      ansible.builtin.ping:
+
+    # - name: Stop NginX
+    #   become: yes
+    #   become_user: root
+    #   ansible.builtin.service:
+    #     name: nginx
+    #     state: stopped
+
+    - name: Git Fetch
+      ansible.builtin.command: git fetch --all
+      # become: yes
+      # become_user: root
+      args:
+        chdir: .
+
+    - name: Git Reset
+      ansible.builtin.command: git reset --hard "{{ branch }}"
+      # become: yes
+      # become_user: root
+      args:
+        chdir: .
+
+    - name: Finde alle .html-Dateien im relativen Pfad
+      find:
+        paths: "/var/lib/jenkins/workspace/Test/Build-Website-German/"
+        patterns: "*.html"
+        recurse: yes
+      register: html_files
+
+    - name: Lese den Inhalt der .html-Dateien ein
+      slurp:
+        src: "{{ item.path }}"
+      loop: "{{ html_files.files }}"
+      register: html_contents
+
+    # - name: Debug Variablen
+    #   ansible.builtin.debug:
+    #     var: html_contents
+
+    # - name: Debug Replacements
+    #   ansible.builtin.debug:
+    #     var: replacements
+
+    - name: Ersetze Variablen in HTML-Dateien
+      # become: yes
+      # become_user: root
+      # delegate_to: "smp-web02"
+      replace:
+        path: "{{ item.0.source }}"
+        regexp: "{{ item.1.key }}"
+        replace: "{{ item.1.value }}"
+      loop: "{{ html_contents.results | product(replacements | dict2items) | list }}"
+      loop_control:
+        label: "Replacing {{ item.1.key }} in {{ item.0.source | basename }}"
+
+    # - name: Ersetze Variablen in HTML-Dateien
+    #   ansible.builtin.debug:
+    #     msg:
+    #     - "html_contents: {{ html_contents | to_json }}"
+    #     - "replacements: {{ replacements | to_json }}"
+    #   failed_when: replacements is undefined or not replacements is mapping
+    #   vars:
+    #     error_msg: "replacements muss ein definiertes Dictionary sein"+
+
+    - name: Read the content of header.html
+      slurp:
+        src: "{{ header_file }}"
+      register: header_content
+
+    - name: Replace placeholder with header content
+      # become: yes
+      # become_user: root
+      lineinfile:
+        # path: /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
+        path: "{{ item }}"
+        regexp: 'HEADERHEADERHEADER'
+        line: "{{ header_content.content | b64decode }}"
+      loop: "{{ list }}"
+
+    - name: Read the content of footer.html
+      slurp:
+        src: "{{ footer_file }}"
+      register: footer_content
+
+    - name: Replace placeholder with footer content
+      # become: yes
+      # become_user: root
+      lineinfile:
+        # path: /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
+        path: "{{ item }}"
+        regexp: 'FOOTERFOOTERFOOTER'
+        line: "{{ footer_content.content | b64decode }}"
+      loop: "{{ list }}"
+    
+    # - name: Start NginX
+    #   become: yes
+    #   become_user: root
+    #   ansible.builtin.service:
+    #     name: nginx
+    #     state: started
+
+    # - name: Remove Old Ansible Temp Dir
+    #   ansible.builtin.file:
+    #     path: ../ansibletmp/
+    #     state: absent
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
+    # - name: Copy Ansible Dir
+    #   ansible.builtin.copy:
+    #     src: ansible/
+    #     dest: ../ansibletmp/
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    
+    # - name: Stash aktuelle Änderungen
+    #   ansible.builtin.command: git stash
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
+    # - name: Wechsle zum Branch Rendered/German
+    #   ansible.builtin.command: git checkout Rendered/German
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
+    # - name: Wende gestashte Änderungen an und erzwinge Überschreiben
+    #   ansible.builtin.command: git checkout stash -- .
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
+    # - name: Füge alle Änderungen hinzu
+    #   ansible.builtin.command: git add -- . ':!ansible'
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
+    # - name: Committe die Änderungen mit Timestamp
+    #   ansible.builtin.command: git commit -m "{{ ansible_date_time.iso8601 }} Aktualisierte gerenderte Dateien"
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
+    # - name: Pushe die Änderungen
+    #   ansible.builtin.command: git push origin Rendered/German
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
+    # - name: Wechsle zurück zum ursprünglichen Branch
+    #   ansible.builtin.command: git checkout "{{ branch | regex_replace('^origin/', '') }}"
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
+    # - name: Git Reset zum ursprünglichen Branch
+    #   ansible.builtin.command: git reset --hard "{{ branch }}"
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
