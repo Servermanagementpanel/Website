@@ -80,8 +80,21 @@ replacements:
   VARIABLE-GCP-Item6-2: "<b>6.2</b>&nbsp;Eine Selbstabholung der erworbenen Waren ist ausgeschlossen."
   VARIABLE-GCP-Item6-3: "<b>6.3</b>&nbsp;Wenn der Anbieter die bestellte Ware nicht liefern kann, weil er ohne eigenes Verschulden selbst nicht beliefert wurde, obwohl er rechtzeitig mit einem zuverlässigen Lieferanten ein kongruentes Deckungsgeschäft abgeschlossen hat, wird der Anbieter von seiner Leistungspflicht frei und kann vom Vertrag zurücktreten. Der Anbieter ist verpflichtet, den Kunden unverzüglich über die Unmöglichkeit der Leistungserfüllung in Kenntnis zu setzen. Bereits erbrachte Gegenleistungen des Vertragspartners werden diesem unverzüglich erstattet. Zwingendes Verbraucherrecht bleibt vom vorliegenden Absatz unberührt."
   VARIABLE-GCP-Item7-1: "<b>7.1</b>&nbsp;Es gelten die Vorschriften der gesetzlichen Mängelhaftung."
-
-
+  VARIABLE-GCP-Item8-1: "<b>8.1</b>&nbsp;Der Anbieter haftet unbeschr&auml;nkt:"
+  VARIABLE-GCP-Item8-2: "für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit, die auf einer vorsätzlichen oder fahrlässigen Pflichtverletzung des Anbieters oder einer vorsätzlichen oder fahrlässigen Pflichtverletzung eines gesetzlichen Vertreters oder Erfüllungsgehilfen des Anbieters beruhen;"
+  VARIABLE-GCP-Item8-3: "für Schäden, die auf einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung des Anbieters oder auf einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung eines gesetzlichen Vertreters oder Erfüllungsgehilfen des Anbieters beruhen;"
+  VARIABLE-GCP-Item8-4: "aufgrund eines Garantieversprechens, soweit diesbezüglich keine andere Regelung getroffen wurde;"
+  VARIABLE-GCP-Item8-5: "aufgrund zwingender Haftung (z. B. nach dem Produkthaftungsgesetz)"
+  VARIABLE-GCP-Item8-6: "<b>8.2</b>&nbsp;Wenn der Anbieter fahrlässig eine wesentliche Vertragspflicht verletzt, ist dessen Haftung auf den vertragstypischen, vorhersehbaren Schaden beschränkt, sofern nicht gemäß vorstehendem Absatz unbeschränkt gehaftet wird. Wesentliche Vertragspflichten sind Pflichten, die der Vertrag dem Anbieter nach seinem Inhalt zur Erreichung des Vertragszwecks auferlegt, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf deren Einhaltung der Kunde regelmäßig vertrauen darf."
+  VARIABLE-GCP-Item8-7: "<b>8.3</b>&nbsp;Darüber hinaus ist eine Haftung des Anbieters sowie die Haftung seiner Beauftragten und gesetzlichen Vertreter ausgeschlossen."
+  VARIABLE-GCP-Item8-8: "<b>8.4</b>&nbsp;Nerdscave haftet lediglich für die eigenen Inhalte auf der Website unseres Online-Shops sowie unserer Controlpanel und Wissensdatenbank. Soweit wir über Links den Zugang zu anderen Websites bereitstellen, übernehmen wir keine Verantwortung für die dortigen fremden Inhalte. Diese fremden Inhalte machen wir uns nicht zu eigen. Sobald wir von rechtswidrigen Inhalten auf externen Websites Kenntnis erlangen, werden wir den Zugang zu diesen Seiten umgehend sperren. <br> Unsere Haftung im Rahmen des Telekommunikationsgesetzes bleibt hiervon unberührt."
+  VARIABLE-GCP-Item8-9: "<b>8.5</b>&nbsp;Vorübergehende Einschränkungen der Verfügbarkeit der Leistungen bis zu insgesamt 0,09 % pro Monat sind in der Preis- und Kostenstruktur berücksichtigt und berechtigen den Kunden nicht zu Rückerstattungen oder anderen Ansprüchen."
+  VARIABLE-GCP-Item8-A: "<b>8.6</b>&nbsp;Unterschreitet die von Nerdscave garantierte Verfügbarkeit, erhält der Kunde für den betroffenen Dienst eine einmalige Gutschrift, basierend auf dem hochgerechneten Ausfall über ein Jahr. Stromkosten sind von diesen Gutschriften ausgeschlossen. Bei einer Vertragslaufzeit unter einem Jahr wird diese Vertragslaufzeit als Grundlage herangezogen:"
+  VARIABLE-GCP-Item8-B: "Bei einer Unterschreitung der Mindestverfügbarkeit von 0,1 % bis 0,5 % werden 50 % des monatlichen Grundpreises erstattet."
+  VARIABLE-GCP-Item8-C: "Bei einer Unterschreitung der Mindestverfügbarkeit von 0,6 % bis 1,5 % werden 75 % des monatlichen Grundpreises erstattet."
+  VARIABLE-GCP-Item8-D: "Bei einer Unterschreitung der Mindestverfügbarkeit von mehr als 1,5 % werden 100 % des monatlichen Grundpreises erstattet."
+  VARIABLE-GCP-Item8-E: "Weitergehende Schadensersatzansprüche des Kunden sind ausgeschlossen."
+  
 # " wird zu &quot;
 # ü wird zu &uuml;
 # ä wird zu &auml;
