@@ -14,8 +14,8 @@ replacements:
 
 #MENU
   VARIABLE-MENUHOME: "Startseite"
-  VARIABLE-MENUHOSTING: "Hosting"
-  VARIABLE-MENUHOSTINGTITLE: "Hosting einfach gemacht"
+  VARIABLE-MENUHOSTINGTITLE: "Hosting"
+  VARIABLE-MENUHOSTINGSUBTITLE: "Hosting einfach gemacht"
   VARIABLE-MENUHOSTINGDESCRIPTION: "Hochperformantes, Sicheres Hosting für deine Website. Miete jetzt deinen schnellen VPS und lege los! Ultra Schnelles NVMe SSD Hosting."
   VARIABLE-MENUHOSTINGITEM1TITLE: "KVM VPS Hosting"
   VARIABLE-MENUHOSTINGITEM1DESCRIPTION: "Einfaches und Starkes Hosting für jeden!"
