@@ -123,42 +123,56 @@
     #     name: nginx
     #     state: started
 
-    - name: Stash aktuelle Änderungen
-      ansible.builtin.command: git stash
-      args:
-        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    # - name: Remove Old Ansible Temp Dir
+    #   ansible.builtin.file:
+    #     path: ../ansibletmp/
+    #     state: absent
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
-    - name: Wechsle zum Branch Rendered/German
-      ansible.builtin.command: git checkout Rendered/German
-      args:
-        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    # - name: Copy Ansible Dir
+    #   ansible.builtin.copy:
+    #     src: ansible/
+    #     dest: ../ansibletmp/
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    
+    # - name: Stash aktuelle Änderungen
+    #   ansible.builtin.command: git stash
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
-    - name: Wende gestashte Änderungen an und erzwinge Überschreiben
-      ansible.builtin.command: git checkout stash -- .
-      args:
-        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    # - name: Wechsle zum Branch Rendered/German
+    #   ansible.builtin.command: git checkout Rendered/German
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
-    - name: Füge alle Änderungen hinzu
-      ansible.builtin.command: git add -- . ':!ansible'
-      args:
-        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    # - name: Wende gestashte Änderungen an und erzwinge Überschreiben
+    #   ansible.builtin.command: git checkout stash -- .
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
-    - name: Committe die Änderungen mit Timestamp
-      ansible.builtin.command: git commit -m "{{ ansible_date_time.iso8601 }} Aktualisierte gerenderte Dateien"
-      args:
-        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    # - name: Füge alle Änderungen hinzu
+    #   ansible.builtin.command: git add -- . ':!ansible'
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
-    - name: Pushe die Änderungen
-      ansible.builtin.command: git push origin Rendered/German
-      args:
-        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    # - name: Committe die Änderungen mit Timestamp
+    #   ansible.builtin.command: git commit -m "{{ ansible_date_time.iso8601 }} Aktualisierte gerenderte Dateien"
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
-    - name: Wechsle zurück zum ursprünglichen Branch
-      ansible.builtin.command: git checkout "{{ branch | regex_replace('^origin/', '') }}"
-      args:
-        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    # - name: Pushe die Änderungen
+    #   ansible.builtin.command: git push origin Rendered/German
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
 
-    - name: Git Reset zum ursprünglichen Branch
-      ansible.builtin.command: git reset --hard "{{ branch }}"
-      args:
-        chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    # - name: Wechsle zurück zum ursprünglichen Branch
+    #   ansible.builtin.command: git checkout "{{ branch | regex_replace('^origin/', '') }}"
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+
+    # - name: Git Reset zum ursprünglichen Branch
+    #   ansible.builtin.command: git reset --hard "{{ branch }}"
+    #   args:
+    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
