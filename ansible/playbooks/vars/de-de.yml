@@ -10,7 +10,7 @@ replacements:
   VARIABLE-HEADERLANGUAGE: "de-DE"
   VARIABLE-HEADERAUTHOR: "Moritz Mantel"
   VARIABLE-HEADERKEYWORDS: "Servermanagementpanel"
-  VARIABLE-HEADERTITLE: "Preiswertes Serverhosting!"
+  VARIABLE-HEADERSUBTITLE: "Preiswertes Serverhosting!"
 
 #MENU
   VARIABLE-MENUHOME: "Startseite"
