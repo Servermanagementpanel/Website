@@ -26,6 +26,10 @@ replacements:
   VARIABLE-SOCIALTWITTER: "https://x.com/Servermgmtpanel"
   VARIABLE-SOCIALBSKY: "https://bsky.app/profile/servermanagementpanel.de"
 
+#404
+  VARIABLE-404PAGE-Text1: "Irgendwas fehlt ..."
+  VARIABLE-404PAGE-Text2: "Es sieht aus, als ist hier etwas schiefgelaufen. Keine Sorge, wir kümmern uns darum!"
+  VARIABLE-404PAGE-Text3: "Zur Startseite"
 
 #General Terms and Conditions
   VARIABLE-GCP-Title: "Allgemeine Gesch&auml;ftsbedingungen"
