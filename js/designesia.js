@@ -5,7 +5,7 @@
 	'use strict';
 
      var rtl_mode = 'off'; // on - for enable RTL, off - for deactive RTL
-     var preloader = 'on'; // on - for enable preloader, off - for disable preloader
+     var preloader = 'off'; // on - for enable preloader, off - for disable preloader
 
      /* predefined vars begin */
      var mobile_menu_show = 0;

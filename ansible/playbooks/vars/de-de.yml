@@ -4,6 +4,7 @@ replacements:
   VARIABLE-WEBSITEURL: "https://www.servermanagementpanel.de"
   VARIABLE-WEBSITEDOMAIN: "www.servermanagementpanel.de"
   VARIABLE-WEBSITESUPPORTURL: "https://cp.servermanagementpanel.de/support"
+  VARIABLE-WEBSITEORDERURL: "https://cp.servermanagementpanel.de/order"
 
 #Header
   VARIABLE-HEADERTITLE: "Servermanagementpanel | VPS & KVM Hosting"
@@ -25,6 +26,36 @@ replacements:
 #Social
   VARIABLE-SOCIALTWITTER: "https://x.com/Servermgmtpanel"
   VARIABLE-SOCIALBSKY: "https://bsky.app/profile/servermanagementpanel.de"
+
+#STARTPAGE
+  VARIABLE-WEBSITETITLE: "Die besten <span class='id-color'>Server</span> für"
+  VARIABLE-WEBSITESUBTITLE1: "dein Geschäft."
+  VARIABLE-WEBSITESUBTITLE2: "dein Portfolio."
+  VARIABLE-WEBSITESUBTITLE4: "deinen Gameserver."
+  VARIABLE-WEBSITESUBTITLE3: "dein Prokekt."
+  VARIABLE-WEBSITESUBTITLE5: "deinen Internetauftritt."
+  VARIABLE-WEBSITESUBSUBTITLE: "Hochperformantes, Sicheres Hosting für deine Website. <br>Miete jetzt deinen schnellen VPS und lege los! <br>Ultra Schnelles NVMe SSD Hosting."
+
+  VARIABLE-FOCUSPOINT1TITLE: "Zuverlässige KVM V-Server"
+  VARIABLE-FOCUSPOINT1SUBTITLE: "Einfaches und Starkes Hosting für jeden."
+  VARIABLE-FOCUSPOINT2TITLE: "Leistungsstarke Server"
+  VARIABLE-FOCUSPOINT2SUBTITLE: "Höchste Geschwindigkeit, Niedrigste Downtime."
+  VARIABLE-FOCUSPOINT3TITLE: "High Level DDoS-Schutz"
+  VARIABLE-FOCUSPOINT3SUBTITLE: "Deine Server sind zu jeder Zeit Top geschützt."
+  VARIABLE-FOCUSPOINT4TITLE: "Perfekt für deine Website"
+  VARIABLE-FOCUSPOINT4SUBTITLE: "Optimiert für Content Management Systeme wie WordPress."
+
+  VARIABLE-VIRTUALSERVER-BADGE: "VIRTUELLE SERVER"
+  VARIABLE-VIRTUALSERVER-TITLE: "Der Perfekte <span class='id-color'>KVM VPS Server</span> für dich und dein Projekt."
+  VARIABLE-VIRTUALSERVER-TOGGLE1: "Monatliche Zahlung"
+  VARIABLE-VIRTUALSERVER-TOGGLE2: "Jährliche Zahlung"
+
+  VARIABLE-VPS1-TITLE: "Starter"
+  VARIABLE-VPS1-Text: "Der Ideale Server für Beginner."
+
+  VARIABLE-VPSMONTH: "/Monat"
+  VARIABLE-VPSBUYTEXT: "Server bestellen"
+  VARIABLE-VPSRENEW: "Wird automatisch verlängert."
 
 #404
   VARIABLE-404PAGE-Text1: "Irgendwas fehlt ..."
