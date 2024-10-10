@@ -6,22 +6,22 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>VARIABLE-WEBSITEURL/</loc>
+  <loc>https://www.servermanagementpanel.de/</loc>
   <lastmod>2024-09-25T15:48:08+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>VARIABLE-WEBSITEURL/GTC/</loc>
-  <lastmod>2024-10-05T15:48:08+00:00</lastmod>
+  <loc>https://www.servermanagementpanel.de/GTC/</loc>
+  <lastmod>2024-10-15T15:48:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>VARIABLE-WEBSITEURL/Impressum/</loc>
+  <loc>https://www.servermanagementpanel.de/Impressum/</loc>
   <lastmod>2024-09-25T15:48:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>VARIABLE-WEBSITEURL/Datenschutz/</loc>
+  <loc>https://www.servermanagementpanel.de/Datenschutz/</loc>
   <lastmod>2024-09-25T15:48:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
