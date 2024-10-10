@@ -28,7 +28,7 @@ replacements:
   VARIABLE-SOCIALBSKY: "https://bsky.app/profile/servermanagementpanel.de"
 
 #STARTPAGE
-  VARIABLE-WEBSITETITLE: "Die besten <span class="id-color">Server</span> für"
+  VARIABLE-WEBSITETITLE: "Die besten <span class='id-color'>Server</span> für"
   VARIABLE-WEBSITESUBTITLE1: "dein Geschäft."
   VARIABLE-WEBSITESUBTITLE2: "dein Portfolio."
   VARIABLE-WEBSITESUBTITLE4: "deinen Gameserver."
@@ -46,7 +46,7 @@ replacements:
   VARIABLE-FOCUSPOINT4SUBTITLE: "Optimiert für Content Management Systeme wie WordPress."
 
   VARIABLE-VIRTUALSERVER-BADGE: "VIRTUELLE SERVER"
-  VARIABLE-VIRTUALSERVER-TITLE: "Der Perfekte <span class="id-color">KVM VPS Server</span> für dich und dein Projekt."
+  VARIABLE-VIRTUALSERVER-TITLE: "Der Perfekte <span class='id-color'>KVM VPS Server</span> für dich und dein Projekt."
   VARIABLE-VIRTUALSERVER-TOGGLE1: "Monatliche Zahlung"
   VARIABLE-VIRTUALSERVER-TOGGLE2: "Jährliche Zahlung"
 
