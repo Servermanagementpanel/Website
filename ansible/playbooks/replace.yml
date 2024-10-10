@@ -74,7 +74,7 @@
         replace: "{{ item.1.value }}"
       loop: "{{ html_contents.results | product(replacements | dict2items) | list }}"
       loop_control:
-        label: "Replacing {{ item.1.key }} in {{ item.0.source | basename }}"
+        label: "Replacing {{ item.1.key }} in {{ item.0.source }}"
 
     # - name: Ersetze Variablen in HTML-Dateien
     #   ansible.builtin.debug:
