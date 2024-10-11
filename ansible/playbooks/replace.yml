@@ -15,7 +15,7 @@
     - /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
     - /var/lib/jenkins/workspace/Test/Build-Website-German/GTC/index.html
     - /var/lib/jenkins/workspace/Test/Build-Website-German/contact/index.html
-    - /var/lib/jenkins/workspace/Test/Build-Website-German/Datenschutz/index.html
+    - /var/lib/jenkins/workspace/Test/Build-Website-German/Privacy/index.html
     - /var/lib/jenkins/workspace/Test/Build-Website-German/Imprint/index.html
 
   tasks:

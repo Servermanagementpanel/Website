@@ -11,7 +11,7 @@
     # - /var/www/html/website/AGB/index.html
     # - /var/www/html/website/AGB/TOS/index.html
     # - /var/www/html/website/contact/index.html
-    # - /var/www/html/website/Datenschutz/index.html
+    # - /var/www/html/website/Privacy/index.html
     # - /var/www/html/website/Imprint/index.html
   tasks:
     - name: Ping
