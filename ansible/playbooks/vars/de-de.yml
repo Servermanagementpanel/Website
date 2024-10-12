@@ -5,6 +5,7 @@ replacements:
   VARIABLE-WEBSITEDOMAIN: "www.servermanagementpanel.de"
   VARIABLE-WEBSITESUPPORTURL: "https://cp.servermanagementpanel.de/support"
   VARIABLE-WEBSITEORDERURL: "https://cp.servermanagementpanel.de/order"
+  VARIABLE-WEBSITEPANELURL: "https://cp.servermanagementpanel.de"
 
 #Header
   VARIABLE-HEADERTITLE: "Servermanagementpanel | VPS & KVM Hosting"
@@ -99,7 +100,7 @@ replacements:
 #FEATUREROW
   VARIALBE-FEATUREROW1-TITLE: "Sofortige Aktivierung"
   VARIABLE-FEATUREROW1-TEXT: "Unser Control Panel installiert und aktiviert bestellte Server automatisch. Je nach Größe innerhalb von 1-3 Minuten einsatzbereit."
-  VARIABLE-FEATUREROW2-TITLE: ">99% Garantierte Server Uptime"
+  VARIABLE-FEATUREROW2-TITLE: ">99,8% Garantierte Server Uptime"
   VARIALBE-FEATUREROW2-TEXT: "Wir Garantieren eine Verfügbarkeit über 99% auf alle VServer. Dank zahlreicher Redundanzen im Netzwerk, Storage und der Stromversorgung sind ausfälle quasi ausgeschlossen."
   VARIABLE-FEATUREROW3-TITLE: "Weltweite Rechenzentren"
   VARIABLE-FEATUREROW3-TEXT: "Wir können an all unseren Rechenzentrumsstandorten in bis zu 5 Ländern Leistungsstarke und Hochverfügbare KVM Server sowie andere Dienstleistungen anbieten."
@@ -119,7 +120,33 @@ replacements:
   VARIABLE-PREPAID4-TITLE: "Server bestellen und nutzen"  
   VARIABLE-PREPAID4-TEXT: "Nach der Bestellung wird der Server innerhalb von Minuten automatisiert bereitgestellt und ist sofort Einsatzbereit."
 
- #TESTIMONIALS
+# TESTIMONIALS
+  VARIABLE-TESTIMONIALS-TEXT: "Rezzensionen"
+  VARIABLE-TESTIMONIALS-TITLE: "Wir hosten <span class='id-color'>Weltweit</span> über 500 Server für Zufriedene Kunden."
+  VARIABLE-TESTIMONIALS-SUBTEXT: "Wir sind dein erfahrener Partner für Server- und Housing-Lösungen."
+  
+  VARIABLE-TESTIMONIALS-JOCHENSAUER-TITLE: "Schnelles Hosting, Guter Support!"
+  VARIABLE-TESTIMONIALS-JOCHENSAUER-TEXT: "Ich habe beim Servermanagementpanel eine unschlagbare Uptime. Die einfache Kommunikation und die unverbindliche Bereitstellung von Testinstanzen ohne lange Laufzeiten waren der ausschlaggebende Grund, von einem großen Provider zum Servermanagementpanel zu wechseln."
+  VARIABLE-TESTIMONIALS-JOCHENSAUER-URL: "https://jochen-sauer.com/"
+  VARIABLE-TESTIMONIALS-JOCHENSAUER-NAME: "Jochen, Sauer IT-Consulting"
+  VARIABLE-TESTIMONIALS-SVENWUERTH-TITLE: "Zuverlässiges Hosting"
+  VARIABLE-TESTIMONIALS-SVENWUERTH-TEXT: "Sehr zufrieden mit Leistung und Service, nutze die dienste selber seit mittlerweile zwei Jahren. Die Preise sind absolut gerechtfertigt und dazu noch günstig."
+  VARIABLE-TESTIMONIALS-SVENWUERTH-URL: "https://svenw.de/"
+  VARIABLE-TESTIMONIALS-SVENWUERTH-NAME: "Sven Würth"
+  VARIABLE-TESTIMONIALS-THEGEEKFREAKS-TITLE: "Flexible Preisgestaltung"
+  VARIABLE-TESTIMONIALS-THEGEEKFREAKS-TEXT: "Wir sind vom Servermanagementpanel überzeugt. Flexible Preisgestaltung und schnelle Reaktionszeiten von Personal und Hardware sind herausragend gegenüber der Konkurrenz."
+  VARIABLE-TESTIMONIALS-THEGEEKFREAKS-URL: "https://thegeekfreaks.de/"
+  VARIABLE-TESTIMONIALS-THEGEEKFREAKS-NAME: "Alex, TheGeekFreaks GmbH"
+  VARIABLE-TESTIMONIALS-AIRICH-TITLE: "Ausfallsichere Dienste"
+  VARIABLE-TESTIMONIALS-AIRICH-TEXT: "Ich bin seit einigen Jahren Kunde, Schnelle & kompetente Fehler Behebung. <br>Host Wechsel wird hier leicht gemacht, wir beziehen unsere Domain, Hosting, einen komplette E-Mail Server ink. Spam Filter uvm."
+  VARIABLE-TESTIMONIALS-AIRICH-URL: "https://schwelm.digital/"
+  VARIABLE-TESTIMONIALS-AIRICH-NAME: "Daniel, Schwelm.Digital"
+
+# 30Day Money Back Guarantee
+  VARIABLE-30DAYS-TITLE: "<span class='color-gradient'>30 Tage</span> Geld zurück Garantie!"
+  VARIABLE-30DAYS-TEXT: "Wenn du nicht zufrieden bist erstatten wir dir dein Geld einfach wieder zurück. Kein Aufwand, Kein Risiko. Du kannst deinen Server jederzeit kündigen."
+  VARIABLE-30DAYS-BUTTON: "Zum Panel"
+  VARIABLE-30DAYS-ADDON: "*Rückerstattungen können nur innerhalb der ersten 30 Tage erfolgen"
   
 #404
   VARIABLE-404PAGE-Text1: "Irgendwas fehlt ..."
