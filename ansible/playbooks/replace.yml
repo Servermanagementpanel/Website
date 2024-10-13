@@ -3,20 +3,20 @@
   hosts: localhost
   gather_facts: yes
 
-  vars_files:
-    - de-de.yml
+  # vars_files:
+  #   - de-de.yml
 
   vars:
     branch: origin/Variables
     html_files_path: "."
-    header_file: "/var/lib/jenkins/workspace/Test/Build-Website-German/header.html"
-    footer_file: "/var/lib/jenkins/workspace/Test/Build-Website-German/footer.html"
+    header_file: "../../header.html"
+    footer_file: "../../footer.html"
     list:
-    - /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
-    - /var/lib/jenkins/workspace/Test/Build-Website-German/GTC/index.html
-    - /var/lib/jenkins/workspace/Test/Build-Website-German/contact/index.html
-    - /var/lib/jenkins/workspace/Test/Build-Website-German/Privacy/index.html
-    - /var/lib/jenkins/workspace/Test/Build-Website-German/Imprint/index.html
+    - ../../index.html
+    - ../../GTC/index.html
+    - ../../contact/index.html
+    - ../../Privacy/index.html
+    - ../../Imprint/index.html
 
   tasks:
     - name: Ping
@@ -45,7 +45,8 @@
 
     - name: Finde alle .html-Dateien im relativen Pfad
       find:
-        paths: "/var/lib/jenkins/workspace/Test/Build-Website-German/"
+        paths: "../../"
+        # paths: "../../"
         patterns: "*.html"
         recurse: yes
       register: html_files
@@ -94,7 +95,7 @@
       # become: yes
       # become_user: root
       lineinfile:
-        # path: /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
+        # path: ../../index.html
         path: "{{ item }}"
         regexp: 'HEADERHEADERHEADER'
         line: "{{ header_content.content | b64decode }}"
@@ -109,7 +110,7 @@
       # become: yes
       # become_user: root
       lineinfile:
-        # path: /var/lib/jenkins/workspace/Test/Build-Website-German/index.html
+        # path: ../../index.html
         path: "{{ item }}"
         regexp: 'FOOTERFOOTERFOOTER'
         line: "{{ footer_content.content | b64decode }}"
@@ -127,51 +128,51 @@
     #     path: ../ansibletmp/
     #     state: absent
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
 
     # - name: Copy Ansible Dir
     #   ansible.builtin.copy:
     #     src: ansible/
     #     dest: ../ansibletmp/
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
     
     # - name: Stash aktuelle Änderungen
     #   ansible.builtin.command: git stash
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
 
     # - name: Wechsle zum Branch Rendered/German
     #   ansible.builtin.command: git checkout Rendered/German
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
 
     # - name: Wende gestashte Änderungen an und erzwinge Überschreiben
     #   ansible.builtin.command: git checkout stash -- .
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
 
     # - name: Füge alle Änderungen hinzu
     #   ansible.builtin.command: git add -- . ':!ansible'
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
 
     # - name: Committe die Änderungen mit Timestamp
     #   ansible.builtin.command: git commit -m "{{ ansible_date_time.iso8601 }} Aktualisierte gerenderte Dateien"
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
 
     # - name: Pushe die Änderungen
     #   ansible.builtin.command: git push origin Rendered/German
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
 
     # - name: Wechsle zurück zum ursprünglichen Branch
     #   ansible.builtin.command: git checkout "{{ branch | regex_replace('^origin/', '') }}"
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
 
     # - name: Git Reset zum ursprünglichen Branch
     #   ansible.builtin.command: git reset --hard "{{ branch }}"
     #   args:
-    #     chdir: /var/lib/jenkins/workspace/Test/Build-Website-German/
+    #     chdir: ../../
