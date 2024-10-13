@@ -1,0 +1,11 @@
+[staging]
+en_server1 ansible_host=77.90.50.76
+en_server2 ansible_host=77.90.11.72
+
+ 
+[prod]
+en_server1 ansible_host=77.90.50.76
+en_server2 ansible_host=77.90.11.72
+
+[staging:vars]
+branch=origin/Rendered/English
