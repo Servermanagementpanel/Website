@@ -8,4 +8,5 @@ all:
         #   ansible_host: de_web02.servermanagementpanel.de
         de_staging:
             ansible_host: smp-web02
-vars_files: playbooks/vars/de-de.yml
+[all:vars]
+vars_files=de-de.yml
