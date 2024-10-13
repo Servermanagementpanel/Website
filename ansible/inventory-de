@@ -9,4 +9,4 @@ all:
         de_staging:
             ansible_host: smp-web02
 vars:
-        vars_file: de-de.yml      
+        vars_files: de-de.yml      
