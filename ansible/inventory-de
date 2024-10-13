@@ -2,9 +2,9 @@ all:
   children:
     de_servers:
       hosts:
-        de_server1:
-          ansible_host: de_web01.servermanagementpanel.de
-        de_server2:
-          ansible_host: de_web02.servermanagementpanel.de
-      vars:
-        vars_file: de-de.yml
+        # de_server1:
+        #   ansible_host: de_web01.servermanagementpanel.de
+        # de_server2:
+        #   ansible_host: de_web02.servermanagementpanel.de
+        de_staging:
+            ansible_host: smp-web02

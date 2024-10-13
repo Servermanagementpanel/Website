@@ -3,8 +3,8 @@
   hosts: localhost
   gather_facts: yes
 
-  vars_files:
-    - de-de.yml
+  # vars_files:
+  #   - de-de.yml
 
   vars:
     branch: origin/Variables
@@ -45,7 +45,8 @@
 
     - name: Finde alle .html-Dateien im relativen Pfad
       find:
-        paths: "/var/lib/jenkins/workspace/Test/Build-Website-German/"
+        paths: "../../"
+        # paths: "/var/lib/jenkins/workspace/Test/Build-Website-German/"
         patterns: "*.html"
         recurse: yes
       register: html_files

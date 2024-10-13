@@ -23,7 +23,7 @@ replacements:
   VARIABLE-MENUHOSTINGITEM1DESCRIPTION: "Einfaches und Starkes Hosting für jeden!"
   VARIABLE-MENUSUPPORT: "Support"
   VARIABLE-MENUABOUTUS: "About Us"
-  VARIABLE-MENU-CTC: "AGB"
+  VARIABLE-MENU-GTC: "AGB"
   VARIABLE-MENU-PRIVACY: "Datenschutz"
   VARIABLE-MENU-IMPRINT: "Impressum"
 
