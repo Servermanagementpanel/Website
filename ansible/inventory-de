@@ -8,5 +8,3 @@ all:
         #   ansible_host: de_web02.servermanagementpanel.de
         de_staging:
             ansible_host: smp-web02
-[localhost:vars]
-vars_files=de-de.yml

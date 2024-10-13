@@ -45,8 +45,8 @@
 
     - name: Finde alle .html-Dateien im relativen Pfad
       find:
-        paths: "../"
-        # paths: "/var/lib/jenkins/workspace/Test/Build-Website-German/"
+        # paths: "../"
+        paths: "/var/lib/jenkins/workspace/Test/Build-Website-German/"
         patterns: "*.html"
         recurse: yes
       register: html_files
