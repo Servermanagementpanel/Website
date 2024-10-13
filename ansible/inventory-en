@@ -1,6 +1,6 @@
 [staging]
-web01.servermanagementpanel.com ansible_host=77.90.50.76
-web02.servermanagementpanel.com ansible_host=77.90.11.72
+web01.servermanagementpanel.com
+web02.servermanagementpanel.com
 
  
 [prod]
