@@ -1,5 +1,5 @@
 - name: Deploy
-  hosts: staging
+  hosts: all
   serial: 1
   vars:
     branch: origin/Rendered/German

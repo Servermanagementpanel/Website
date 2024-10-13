@@ -1,6 +1,6 @@
 ---
 - name: Playbook zum Einlesen und Verwenden von Variablen
-  hosts: all
+  hosts: localhost
   gather_facts: yes
 
   # vars_files:
