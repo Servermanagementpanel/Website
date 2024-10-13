@@ -1,6 +1,6 @@
 [staging]
-web01.servermanagementpanel.com
-web02.servermanagementpanel.com
+en-web01
+en-web02
 
  
 [prod]
