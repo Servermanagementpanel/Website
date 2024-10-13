@@ -13,6 +13,8 @@ replacements:
   VARIABLE-HEADERAUTHOR: "Moritz Mantel"
   VARIABLE-HEADERKEYWORDS: "Servermanagementpanel"
   VARIABLE-HEADERSUBTITLE: "Preiswertes Serverhosting!"
+  VARIABLE-TRANSLATION-FLAG: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/20px-Flag_of_Germany.svg.png"
+  VARIABLE-CUSTOMERLOGIN: "Kundenlogin"
 
 #MENU
   VARIABLE-MENUHOME: "Startseite"
@@ -26,6 +28,7 @@ replacements:
   VARIABLE-MENU-GTC: "AGB"
   VARIABLE-MENU-PRIVACY: "Datenschutz"
   VARIABLE-MENU-IMPRINT: "Impressum"
+  VARIABLE-MENU-LEGAL: "Rechtliches"
 
 #Social
   VARIABLE-SOCIALTWITTER: "https://x.com/Servermgmtpanel"
@@ -292,7 +295,7 @@ replacements:
   VARIABLE-GTC-ItemF-1: "Ein Server mit Administrationsrechten erfordert umfassende Kenntnisse in der Serveradministration. Als Serveradministrator trägt der Kunde die alleinige Verantwortung für die Sicherheit des Servers vor unerwünschten Zugriffen und Manipulationen durch Dritte über das Internet. Wir haben keine reguläre Möglichkeit, den Inhalt des Servers zu überwachen, insbesondere keinen administrativen Zugriff. Sofern nicht anders vereinbart, beinhalten die Server-Angebote keine Backup-Absicherung und keine Sicherung durch externe Schutzsoftware. Wir empfehlen nachdrücklich, dass der Kunde selbst Backups erstellt und zuverlässige Schutzsoftware wie eine Firewall oder Virenschutzprogramme installiert und regelmäßig aktualisiert. Nicht oder unzureichend gesicherte “offene” Server stellen eine Einladung für Hacker dar, diese missbräuchlich zu nutzen! Sollten wir feststellen, dass der Server in erheblichem Maße missbräuchlich von Dritten genutzt wird (z. B. im Rahmen eines Hackerangriffs), behalten wir uns das Recht vor, den Server ohne Vorankündigung vom Netz zu trennen. Wir werden den Kunden umgehend über diese Maßnahme informieren."
   VARIABLE-GTC-ItemF-2: "Sollte der Kunde offene Mail-Relays oder ähnliche Systeme betreiben, über die z.B. SPAM-Mails verbreitet werden können, behalten wir uns das Recht vor, den Server umgehend vom Netz zu trennen. Der Kunde verpflichtet sich, Nerdscave unverzüglich zu informieren, sobald er Vermutet, dass Dritte unbefugt seinen Server nutzen."
   VARIABLE-GTC-ItemF-3: "Die Verantwortung für die Aktualisierung der auf dem Server installierten Betriebs- und Anwendungssoftware liegt ausschließlich beim Kunden. Es ist die Pflicht des Kunden, sich eigenständig über verfügbare Updates und neue Versionen zu informieren und diese eigenständig sowie auf eigene Kosten und Risiko zu installieren."
-  VARIABLE-GTC-ItemF-4: "Es ist dem Kunden untersagt, urheberrechtlich geschützte Inhalte unbefugt anzubieten oder zu verbreiten. Das Bereitstellen von P2P-Tauschbörsen, Download-Services oder Streaming-Diensten, über die möglicherweise urheberrechtlich geschützte Inhalte ohne Genehmigung verbreitet werden können, ist nicht erlaubt. Ebenso ist das Anbieten von Links zu solchen Plattformen oder Inhalten untersagt. Bei Verstößen behalten wir uns das Recht vor, den Server ohne Vorankündigung offline zu nehmen und den Vertrag fristlos zu kündigen. Des Weiteren ist der Betrieb von Kryptowährungs-Mining-Programmen sowie das Scannen fremder Systeme oder IP-Adressen nicht gestattet. Auch hier gilt: Bei Verstoß behalten wir uns das Recht vor, den Server ohne Vorankündigung vom Netz zu trennen und den Vertrag fristlos zu kündigen. Zusätzlich ist der Kunde verpflichtet, seine "
+  VARIABLE-GTC-ItemF-4: "Es ist dem Kunden untersagt, urheberrechtlich geschützte Inhalte unbefugt anzubieten oder zu verbreiten. Das Bereitstellen von P2P-Tauschbörsen, Download-Services oder Streaming-Diensten, über die möglicherweise urheberrechtlich geschützte Inhalte ohne Genehmigung verbreitet werden können, ist nicht erlaubt. Ebenso ist das Anbieten von Links zu solchen Plattformen oder Inhalten untersagt. Bei Verstößen behalten wir uns das Recht vor, den Server ohne Vorankündigung offline zu nehmen und den Vertrag fristlos zu kündigen. Des Weiteren ist der Betrieb von Kryptowährungs-Mining-Programmen sowie das Scannen fremder Systeme oder IP-Adressen nicht gestattet. Auch hier gilt: Bei Verstoß behalten wir uns das Recht vor, den Server ohne Vorankündigung vom Netz zu trennen und den Vertrag fristlos zu kündigen. Zusätzlich ist der Kunde verpflichtet, seine Programme so zu konfigurieren, dass sie sich automatisch neu starten, wenn die Hardware oder das Betriebssystem neu gestartet wird."
   VARIABLE-GTC-ItemF-5: "Der Einsatz von Programmen zur Kryptowährungs-Mining (Kryptonodes) und das Scannen von fremden Systemen oder IP-Adressen sind ebenfalls verboten."
   VARIABLE-GTC-ItemF-6: "Weitergehend verbieten wir das manuelle Ändern der Hardware-Adresse (MAC), das übermäßige oder konstante Auslasten der zugewiesenen Netzwerk- oder Rechenkapazität, sowie das Benutzen von gefälschten Source IP-Adressen (IP-Spoofing)."
   VARIABLE-GTC-ItemG-1: "Der Anbieter behandelt die personenbezogenen Daten seiner Kunden vertraulich und im Einklang mit den gesetzlichen Datenschutzvorschriften. Näheres entnehmen Sie der Datenschutzerklärung des Anbieters."

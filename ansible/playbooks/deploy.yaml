@@ -1,8 +1,7 @@
 - name: Deploy
-  hosts: all
+  hosts: staging
   serial: 1
   vars:
-    branch: origin/Rendered/German
     # html_files_path: "/var/www/html/website"
     # header_file: "/var/www/html/website/header.html"
     # footer_file: "/var/www/html/website/footer.html"
