@@ -13,6 +13,8 @@ replacements:
   VARIABLE-HEADERAUTHOR: "Moritz Mantel"
   VARIABLE-HEADERKEYWORDS: "Servermanagementpanel"
   VARIABLE-HEADERSUBTITLE: "Preiswertes Serverhosting!"
+  VARIABLE-TRANSLATION-FLAG: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/20px-Flag_of_Germany.svg.png"
+  VARIABLE-CUSTOMERLOGIN: "Kundenlogin"
 
 #MENU
   VARIABLE-MENUHOME: "Startseite"
@@ -26,6 +28,7 @@ replacements:
   VARIABLE-MENU-GTC: "AGB"
   VARIABLE-MENU-PRIVACY: "Datenschutz"
   VARIABLE-MENU-IMPRINT: "Impressum"
+  VARIABLE-MENU-LEGAL: "Rechtliches"
 
 #Social
   VARIABLE-SOCIALTWITTER: "https://x.com/Servermgmtpanel"
