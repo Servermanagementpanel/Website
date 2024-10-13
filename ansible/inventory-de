@@ -1,9 +1,9 @@
-[de_staging]
+[staging]
 smp-web02
  
-[de_prod]
+[prod]
 de_server1 ansible_host=77.90.50.11
 de_server2 ansible_host=77.90.50.12
 
-[de_staging:vars]
+[staging:vars]
 branch=origin/Rendered/German
