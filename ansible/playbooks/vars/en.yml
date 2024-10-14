@@ -307,3 +307,6 @@ replacements:
   VARIABLE-GTC-ItemI-1: "The EU Commission provides a platform for online dispute resolution on the Internet at the following link:"
   VARIABLE-GTC-ItemI-2: "The provider participates in a dispute resolution procedure before a consumer arbitration board. The universal arbitration board of the Zentrum für Schlichtung e.V., Straßburger Straße 8, 77694 Kehl am Rhein is responsible"
   VARIABLE-GTC-ItemI-3: "Our e-mail address can be found under the heading of these GTC."
+
+  #IMPRINT
+  VARIABLE-IMPRINT-TITLE: "Imprint"
