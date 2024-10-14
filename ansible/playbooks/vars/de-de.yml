@@ -312,3 +312,7 @@ replacements:
 # ü wird zu &uuml;
 # ä wird zu &auml;
 # no-break space mit &nbsp;
+
+
+  #IMPRINT
+  VARIABLE-IMPRINT-TITLE: "Impressum"
