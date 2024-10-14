@@ -104,6 +104,8 @@ replacements:
   VARIABLE-DISCLAIMERTRAFFIC: "* Unlimited traffic available on request at no extra charge with a limit of 1 Gbit/s per ticket."
 
 #FEATUREROW
+  VARIABLE-FEATUREROW-TITLE: "FEATURES"
+  VARIABLE-FEATUREROW-TEXT: "A few facts about our Servers."
   VARIALBE-FEATUREROW1-TITLE: "Immediate activation"
   VARIABLE-FEATUREROW1-TEXT: "Our Control Panel installs and activates ordered servers automatically. Ready for use within 10-60 seconds, depending on size."
   VARIABLE-FEATUREROW2-TITLE: ">99.8% guaranteed server uptime"
