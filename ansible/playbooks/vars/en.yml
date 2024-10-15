@@ -310,3 +310,9 @@ replacements:
 
   #IMPRINT
   VARIABLE-IMPRINT-TITLE: "Imprint"
+
+
+  # " wird zu &quot;
+# ü wird zu &uuml;
+# ä wird zu &auml;
+# no-break space mit &nbsp;
