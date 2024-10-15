@@ -104,6 +104,8 @@ replacements:
   VARIABLE-DISCLAIMERTRAFFIC: "* Unlimited traffic available on request at no extra charge with a limit of 1 Gbit/s per ticket."
 
 #FEATUREROW
+  VARIABLE-FEATUREROW-TITLE: "FEATURES"
+  VARIABLE-FEATUREROW-TEXT: "A few facts about our Servers."
   VARIALBE-FEATUREROW1-TITLE: "Immediate activation"
   VARIABLE-FEATUREROW1-TEXT: "Our Control Panel installs and activates ordered servers automatically. Ready for use within 10-60 seconds, depending on size."
   VARIABLE-FEATUREROW2-TITLE: ">99.8% guaranteed server uptime"
@@ -305,3 +307,6 @@ replacements:
   VARIABLE-GTC-ItemI-1: "The EU Commission provides a platform for online dispute resolution on the Internet at the following link:"
   VARIABLE-GTC-ItemI-2: "The provider participates in a dispute resolution procedure before a consumer arbitration board. The universal arbitration board of the Zentrum für Schlichtung e.V., Straßburger Straße 8, 77694 Kehl am Rhein is responsible"
   VARIABLE-GTC-ItemI-3: "Our e-mail address can be found under the heading of these GTC."
+
+  #IMPRINT
+  VARIABLE-IMPRINT-TITLE: "Imprint"
