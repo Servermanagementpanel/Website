@@ -308,11 +308,11 @@ replacements:
   VARIABLE-GTC-ItemI-2: "Der Anbieter nimmt an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil. Zuständig ist die Universalschlichtungsstelle des Zentrums für Schlichtung e.V., Straßburger Straße 8, 77694 Kehl am Rhein"
   VARIABLE-GTC-ItemI-3: "Unsere E-Mail-Adresse entnehmen Sie der Überschrift dieser AGB."
 
-# " wird zu &quot;
+  #IMPRINT
+  VARIABLE-IMPRINT-TITLE: "Impressum"
+
+
+  # " wird zu &quot;
 # ü wird zu &uuml;
 # ä wird zu &auml;
 # no-break space mit &nbsp;
-
-
-  #IMPRINT
-  VARIABLE-IMPRINT-TITLE: "Impressum"
