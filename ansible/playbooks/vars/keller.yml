@@ -1,8 +1,8 @@
 ---
 replacements:
 #Main Variables
-  VARIABLE-WEBSITEURL: "https://www.servermanagementpanel.de"
-  VARIABLE-WEBSITEDOMAIN: "www.servermanagementpanel.de"
+  VARIABLE-WEBSITEURL: "https://www.kellerhosting.com"
+  VARIABLE-WEBSITEDOMAIN: "www.kellerhosting.com"
   VARIABLE-WEBSITESUPPORTURL: "https://cp.servermanagementpanel.de/support"
   VARIABLE-WEBSITEORDERURL: "https://cp.servermanagementpanel.de/order"
   VARIABLE-WEBSITEPANELURL: "https://cp.servermanagementpanel.de"
