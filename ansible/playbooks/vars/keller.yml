@@ -1,14 +1,14 @@
 ---
 replacements:
 #Main Variables
-  VARIABLE-WEBSITEURL: "https://www.servermanagementpanel.de"
-  VARIABLE-WEBSITEDOMAIN: "www.servermanagementpanel.de"
+  VARIABLE-WEBSITEURL: "https://www.kellerhosting.com"
+  VARIABLE-WEBSITEDOMAIN: "www.kellerhosting.com"
   VARIABLE-WEBSITESUPPORTURL: "https://cp.servermanagementpanel.de/support"
   VARIABLE-WEBSITEORDERURL: "https://cp.servermanagementpanel.de/order"
   VARIABLE-WEBSITEPANELURL: "https://cp.servermanagementpanel.de"
 
 #Header
-  VARIABLE-HEADERTITLE: "Servermanagementpanel | VPS & KVM Hosting"
+  VARIABLE-HEADERTITLE: "Kellerhosting | Kellerhosting.com"
   VARIABLE-HEADERLANGUAGE: "de-DE"
   VARIABLE-HEADERAUTHOR: "Moritz Mantel"
   VARIABLE-HEADERKEYWORDS: "Servermanagementpanel"
@@ -312,7 +312,7 @@ replacements:
   VARIABLE-IMPRINT-TITLE: "Impressum"
 
 
-# " wird zu &quot;
+  # " wird zu &quot;
 # ü wird zu &uuml;
 # ä wird zu &auml;
 # no-break space mit &nbsp;
