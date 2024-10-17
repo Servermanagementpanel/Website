@@ -8,7 +8,7 @@ replacements:
   VARIABLE-WEBSITEPANELURL: "https://cp.servermanagementpanel.de"
 
 #Header
-  VARIABLE-HEADERTITLE: "Servermanagementpanel | VPS & KVM Hosting"
+  VARIABLE-HEADERTITLE: "Kellerhosting | Kellerhosting.com"
   VARIABLE-HEADERLANGUAGE: "de-DE"
   VARIABLE-HEADERAUTHOR: "Moritz Mantel"
   VARIABLE-HEADERKEYWORDS: "Servermanagementpanel"
