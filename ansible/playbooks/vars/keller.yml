@@ -183,7 +183,7 @@ replacements:
   VARIABLE-FOOTER-PANELROW-7TITLE: "Backupverwaltung"
   VARIABLE-FOOTER-PANELROW-8TITLE: "Support"
   VARIABLE-FOOTER-NETWORK-TITLE: "Wir besitzen unsere Hardware und die IPs!"
-  VARIABLE-FOOTER-NETWORK-TEXT: "Mit AS197477 betreiben wir unser eigenes Netzwerk, besitzen unsere eigenen IP-Adressen und können über unsere Upstreamprovider sowohl Fulltable als auch defaultroute BGP Sessions anbieten."
+  VARIABLE-FOOTER-NETWORK-TEXT: "Mit AS197477 betreiben wir nicht nur unser eigenes autonomes System, sondern auch unser eigenes Keller-Rechenzentrum! Mit unseren eigenen IP-Adressen sind wir bestens ausgestattet. Dank unserer Upstream-Provider bieten wir dir sowohl Fulltable- als auch Defaultroute-BGP-Sessions – ganz nach deinem Geschmack. Ob du durch die komplette Routingtabelle navigieren willst oder lieber den einfachen Kellerweg wählst, bei uns bekommst du stets die volle Kontrolle über deine Verbindung. Im Kellerhost, versteht sich!"
   VARIABLE-FOOTER-NETWORK-POINT1: "- BYOIP auf Anfrage kostenlos möglich"
   VARIABLE-FOOTER-NETWORK-POINT2: "- BYOASN auf Anfrage kostenlos möglich"
   VARIABLE-FOOTER-NETWORK-POINT3: "- buchen von weiteren IP-Adressen auf Anfrage möglich"
