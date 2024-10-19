@@ -10,7 +10,7 @@ replacements:
 #Header
   VARIABLE-HEADERTITLE: "Kellerhosting | Kellerhosting.com"
   VARIABLE-HEADERLANGUAGE: "de-DE"
-  VARIABLE-HEADERAUTHOR: "Moritz Mantel"
+  VARIABLE-HEADERAUTHOR: "Kellerhosting"
   VARIABLE-HEADERKEYWORDS: "Servermanagementpanel"
   VARIABLE-HEADERSUBTITLE: "Preiswertes Serverhosting!"
   VARIABLE-TRANSLATION-FLAG: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/20px-Flag_of_Germany.svg.png"
@@ -35,27 +35,27 @@ replacements:
   VARIABLE-SOCIALBSKY: "https://bsky.app/profile/servermanagementpanel.de"
 
 #STARTPAGE
-  VARIABLE-WEBSITETITLE: "Die besten <span class='id-color'>Server</span> für"
-  VARIABLE-WEBSITESUBTITLE1: "dein Geschäft."
-  VARIABLE-WEBSITESUBTITLE2: "dein Portfolio."
-  VARIABLE-WEBSITESUBTITLE4: "deinen Gameserver."
-  VARIABLE-WEBSITESUBTITLE3: "dein Projekt."
-  VARIABLE-WEBSITESUBTITLE5: "deinen Internetauftritt."
-  VARIABLE-WEBSITESUBSUBTITLE: "Hochperformantes, Sicheres Hosting für deine Website. <br>Miete jetzt deinen schnellen VPS und lege los! <br>Ultra Schnelles NVMe SSD Hosting."
+  VARIABLE-WEBSITETITLE: "Die unterirdischsten  <span class='id-color'>Server</span> für"
+  VARIABLE-WEBSITESUBTITLE1: "dein Geschäft – aus dem Keller."
+  VARIABLE-WEBSITESUBTITLE2: "dein Portfolio – cool und feucht."
+  VARIABLE-WEBSITESUBTITLE4: "deinen Gameserver – lagfrei im Keller."
+  VARIABLE-WEBSITESUBTITLE3: "dein Projekt – tiefgründige Performance."
+  VARIABLE-WEBSITESUBTITLE5: "deinen Webauftritt – sicher und muffig."
+  VARIABLE-WEBSITESUBSUBTITLE: "Blitzschnelles, kellersicheres Hosting für deine Website. <br>Miete dir jetzt deinen unterirdischen VPS und starte durch!"
 
   #FOCUSPOINTS
   VARIABLE-FOCUSPOINT1TITLE: "Zuverlässige KVM V-Server"
-  VARIABLE-FOCUSPOINT1SUBTITLE: "Einfaches und Starkes Hosting für jeden."
+  VARIABLE-FOCUSPOINT1SUBTITLE: "So stabil wie unser Kellerfundament – Hosting für alle, die's einfach brauchen!"
   VARIABLE-FOCUSPOINT2TITLE: "Leistungsstarke Server"
-  VARIABLE-FOCUSPOINT2SUBTITLE: "Höchste Geschwindigkeit, Niedrigste Downtime."
+  VARIABLE-FOCUSPOINT2SUBTITLE: "Lichtgeschwindigkeit im Keller! Schnell, zuverlässig, und ohne Spinnenweben."
   VARIABLE-FOCUSPOINT3TITLE: "High Level DDoS-Schutz"
-  VARIABLE-FOCUSPOINT3SUBTITLE: "Deine Server sind zu jeder Zeit Top geschützt."
+  VARIABLE-FOCUSPOINT3SUBTITLE: "Keiner kommt hier durch – nicht mal Kellerasseln."
   VARIABLE-FOCUSPOINT4TITLE: "Perfekt für deine Website"
-  VARIABLE-FOCUSPOINT4SUBTITLE: "Optimiert für Content Management Systeme wie WordPress."
+  VARIABLE-FOCUSPOINT4SUBTITLE: "Optimiere deine Seite in Rekordzeit – powered by kellergekühlte Server!"
 
   #VPS
-  VARIABLE-VIRTUALSERVER-BADGE: "VIRTUELLE SERVER"
-  VARIABLE-VIRTUALSERVER-TITLE: "Der Perfekte <span class='id-color'>KVM VPS Server</span> für dich und dein Projekt."
+  VARIABLE-VIRTUALSERVER-BADGE: "UNTERIRDISCHE VIRTUELLE SERVER"
+  VARIABLE-VIRTUALSERVER-TITLE: "Der Perfekte <span class='id-color'>KVM VPS Server</span> – aus dem Keller, für dich und dein Projekt."
   VARIABLE-VIRTUALSERVER-TOGGLE1: "Monatliche Zahlung"
   VARIABLE-VIRTUALSERVER-TOGGLE2: "Jährliche Zahlung"
 
