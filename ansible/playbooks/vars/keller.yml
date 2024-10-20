@@ -36,7 +36,7 @@ replacements:
   VARIABLE-SOCIALBSKY: "https://bsky.app/profile/servermanagementpanel.de"
 
 #STARTPAGE
-  VARIABLE-WEBSITETITLE: "Die unterirdischsten  <span class='id-color'>Server</span> für"
+  VARIABLE-WEBSITETITLE: "Unterirdische  <span class='id-color'>Server</span> für"
   VARIABLE-WEBSITESUBTITLE1: "dein Geschäft – aus dem Keller."
   VARIABLE-WEBSITESUBTITLE2: "dein Portfolio – cool und feucht."
   VARIABLE-WEBSITESUBTITLE4: "deinen Gameserver – lagfrei im Keller."
@@ -108,13 +108,13 @@ replacements:
   VARIABLE-FEATUREROW-TITLE: "FEATURES"
   VARIABLE-FEATUREROW-TEXT: "Ein paar Fakten über unsere Server."
   VARIALBE-FEATUREROW1-TITLE: "Sofortige Aktivierung"
-  VARIABLE-FEATUREROW1-TEXT: "Unser Control Panel installiert und aktiviert bestellte Server automatisch. Je nach Größe innerhalb von 1-3 Minuten einsatzbereit."
-  VARIABLE-FEATUREROW2-TITLE: ">99,8% Garantierte Server Uptime"
-  VARIALBE-FEATUREROW2-TEXT: "Wir Garantieren eine Verfügbarkeit über 99% auf alle VServer. Dank zahlreicher Redundanzen im Netzwerk, Storage und der Stromversorgung sind ausfälle quasi ausgeschlossen."
-  VARIABLE-FEATUREROW3-TITLE: "Weltweite Rechenzentren"
-  VARIABLE-FEATUREROW3-TEXT: "Wir können an all unseren Rechenzentrumsstandorten in bis zu 5 Ländern Leistungsstarke und Hochverfügbare KVM Server sowie andere Dienstleistungen anbieten."
+  VARIABLE-FEATUREROW1-TEXT: "Unsere Kellerasseln installieren und aktiviert bestellte Server automagisch. Je nach Größe innerhalb von 10-60 Sekunden einsatzbereit."
+  VARIABLE-FEATUREROW2-TITLE: ">99,8% garantierte Server Uptime"
+  VARIALBE-FEATUREROW2-TEXT: "Wir Garantieren eine Verfügbarkeit über 99% auf alle VServer. Dank zahlreicher Redundanzen im Netzwerk, Storage und der Stromversorgung sind Ausfälle wirklich selten, Versprochen."
+  VARIABLE-FEATUREROW3-TITLE: "Weltweite Kellerzentren"
+  VARIABLE-FEATUREROW3-TEXT: "Wir können an all unseren Kellergewölben in bis zu 5 Ländern Spinnenwebenfreie KVM Server sowie andere Dienstleistungen, wie Weinlagerung anbieten."
   VARIABLE-FEATUREROW4-TITLE: "Tägliche Backups (Inklusive)"
-  VARIABLE-FEATUREROW4-TEXT: "All unsere Server werden täglich sowohl Onsite als auch Offsite gesichert. Zusätzlich können eigene Backups jederzeit angelegt und Verwaltet werden."
+  VARIABLE-FEATUREROW4-TEXT: "All unsere Server werden täglich sowohl auf Schallplatte als auch auf Steintafeln gesichert. Zusätzlich können eigene Backups natürlich jederzeit abgeschrieben werden."
 
  #PREPAID EXPLAINATION
   VARIABLE-PREPAID-BADGE: "Prepaid System"
@@ -130,7 +130,7 @@ replacements:
   VARIABLE-PREPAID4-TEXT: "Nach der Bestellung wird der Server innerhalb von Minuten automatisiert bereitgestellt und ist sofort Einsatzbereit."
 
 # TESTIMONIALS
-  VARIABLE-TESTIMONIALS-TEXT: "Rezzensionen"
+  VARIABLE-TESTIMONIALS-TEXT: "Rezensionen"
   VARIABLE-TESTIMONIALS-TITLE: "Wir hosten <span class='id-color'>Weltweit</span> über 500 Server für Zufriedene Kunden."
   VARIABLE-TESTIMONIALS-SUBTEXT: "Wir sind dein erfahrener Partner für Server- und Housing-Lösungen."
   
