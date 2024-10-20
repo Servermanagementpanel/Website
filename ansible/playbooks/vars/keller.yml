@@ -6,6 +6,7 @@ replacements:
   VARIABLE-WEBSITESUPPORTURL: "https://cp.servermanagementpanel.de/support"
   VARIABLE-WEBSITEORDERURL: "https://cp.servermanagementpanel.de/order"
   VARIABLE-WEBSITEPANELURL: "https://cp.servermanagementpanel.de"
+  VARIABLE-WEBSITELOGO: "https://www.kellerhosting.com/images/kellerhosting.png"
 
 #Header
   VARIABLE-HEADERTITLE: "Kellerhosting | Kellerhosting.com"
