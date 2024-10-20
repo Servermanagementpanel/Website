@@ -1,0 +1,5 @@
+[staging]
+keller-web01
+
+[staging:vars]
+branch=origin/Rendered/Keller

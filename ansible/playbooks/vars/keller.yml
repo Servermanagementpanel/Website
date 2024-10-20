@@ -36,7 +36,7 @@ replacements:
   VARIABLE-SOCIALBSKY: "https://bsky.app/profile/servermanagementpanel.de"
 
 #STARTPAGE
-  VARIABLE-WEBSITETITLE: "Die unterirdischsten  <span class='id-color'>Server</span> für"
+  VARIABLE-WEBSITETITLE: "Unterirdische  <span class='id-color'>Server</span> für"
   VARIABLE-WEBSITESUBTITLE1: "dein Geschäft – aus dem Keller."
   VARIABLE-WEBSITESUBTITLE2: "dein Portfolio – cool und feucht."
   VARIABLE-WEBSITESUBTITLE4: "deinen Gameserver – lagfrei im Keller."
@@ -130,7 +130,7 @@ replacements:
   VARIABLE-PREPAID4-TEXT: "Nach der Bestellung wird der Server innerhalb von Minuten automatisiert bereitgestellt und ist sofort Einsatzbereit."
 
 # TESTIMONIALS
-  VARIABLE-TESTIMONIALS-TEXT: "Rezzensionen"
+  VARIABLE-TESTIMONIALS-TEXT: "Rezensionen"
   VARIABLE-TESTIMONIALS-TITLE: "Wir hosten <span class='id-color'>Weltweit</span> über 500 Server für Zufriedene Kunden."
   VARIABLE-TESTIMONIALS-SUBTEXT: "Wir sind dein erfahrener Partner für Server- und Housing-Lösungen."
   

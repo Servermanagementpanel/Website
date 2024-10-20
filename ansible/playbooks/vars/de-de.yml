@@ -130,7 +130,7 @@ replacements:
   VARIABLE-PREPAID4-TEXT: "Nach der Bestellung wird der Server innerhalb von Minuten automatisiert bereitgestellt und ist sofort Einsatzbereit."
 
 # TESTIMONIALS
-  VARIABLE-TESTIMONIALS-TEXT: "Rezzensionen"
+  VARIABLE-TESTIMONIALS-TEXT: "Rezensionen"
   VARIABLE-TESTIMONIALS-TITLE: "Wir hosten <span class='id-color'>Weltweit</span> über 500 Server für Zufriedene Kunden."
   VARIABLE-TESTIMONIALS-SUBTEXT: "Wir sind dein erfahrener Partner für Server- und Housing-Lösungen."
   
