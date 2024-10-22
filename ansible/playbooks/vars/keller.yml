@@ -117,17 +117,17 @@ replacements:
   VARIABLE-FEATUREROW4-TEXT: "All unsere Server werden täglich sowohl auf Schallplatte als auch auf Steintafeln gesichert. Zusätzlich können eigene Backups natürlich jederzeit abgeschrieben werden."
 
  #PREPAID EXPLAINATION
-  VARIABLE-PREPAID-BADGE: "Prepaid System"
-  VARIABLE-PREPAID-TITLE: "4 Einfache Schritte"
-  VARIABLE-PREPAID-SUBTEXT: "Dank unseren PrePaid Produkten wird Mahnungen und Zahlungsverzügen ein Ende gesetzt."
-  VARIABLE-PREPAID1-TITLE: "Produkt aussuchen"
-  VARIABLE-PREPAID1-TEXT: "Suche dir die passende Konfiguration für deine Anforderungen aus. Gerne stellen wir temporäre Server zum testen bereit."
-  VARIABLE-PREPAID2-TITLE: "Account Erstellen"
-  VARIABLE-PREPAID2-TEXT: "Ohne Daten läuft hier nichts, erstelle dir vollkommen kostenlos und unverbindlich einen Account in unserem Controlpanel."
+  VARIABLE-PREPAID-BADGE: "Prepaid Kellerkraft"
+  VARIABLE-PREPAID-TITLE: "In 4 einfachen Schritten"
+  VARIABLE-PREPAID-SUBTEXT: "Mit unseren Prepaid-Produkten ist Schluss mit Mahnungen – und stressigen Rechnungen."
+  VARIABLE-PREPAID1-TITLE: "Wähle dein Kellerprodukt"
+  VARIABLE-PREPAID1-TEXT: "Such dir die richtige Konfiguration für deinen Kellerbedarf aus. Testserver? Kein Problem!"
+  VARIABLE-PREPAID2-TITLE: "Account anlegen"
+  VARIABLE-PREPAID2-TEXT: "Ohne Daten läuft nix! Kostenlos und unverbindlich, versprochen."
   VARIABLE-PREPAID3-TITLE: "Guthaben aufladen"
-  VARIABLE-PREPAID3-TEXT: "Wer weiß, wen wir mal Bestechen müssen, lade dir dein gewünschtes Guthaben mit der Zahlungsart deiner Wahl auf. Guthaben ist Gut."
-  VARIABLE-PREPAID4-TITLE: "Server bestellen und nutzen"  
-  VARIABLE-PREPAID4-TEXT: "Nach der Bestellung wird der Server innerhalb von Minuten automatisiert bereitgestellt und ist sofort Einsatzbereit."
+  VARIABLE-PREPAID3-TEXT: "Wer weiß, wann wir mal Schmiergeld brauchen – besser das Guthaben ist aufgeladen!"
+  VARIABLE-PREPAID4-TITLE: "Server starten"
+  VARIABLE-PREPAID4-TEXT: "Bestell den Server, und binnen Minuten steht er – bereit für den kellerkalten Einsatz!"
 
 # TESTIMONIALS
   VARIABLE-TESTIMONIALS-TEXT: "Rezensionen"
