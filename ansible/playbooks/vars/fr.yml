@@ -1,11 +1,11 @@
 replacements:
 #Main Variables
-  VARIABLE-WEBSITEURL: "https://www.servermanagementpanel.com"
-  VARIABLE-WEBSITEDOMAIN: "www.servermanagementpanel.com"
+  VARIABLE-WEBSITEURL: "https://www.servermanagementpanel.fr"
+  VARIABLE-WEBSITEDOMAIN: "www.servermanagementpanel.fr"
   VARIABLE-WEBSITESUPPORTURL: "https://cp.servermanagementpanel.de/support"
   VARIABLE-WEBSITEORDERURL: "https://cp.servermanagementpanel.de/order"
   VARIABLE-WEBSITEPANELURL: "https://cp.servermanagementpanel.de"
-  VARIABLE-WEBSITELOGO: "https://www.servermanagementpanel.com/images/logo.png"
+  VARIABLE-WEBSITELOGO: "https://www.servermanagementpanel.fr/images/logo.png"
 
 #Header
   VARIABLE-HEADERTITLE: "Panneau de gestion de serveur | Hébergement VPS & KVM"
