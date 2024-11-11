@@ -1,0 +1,5 @@
+[staging]
+nl-web01
+
+[staging:vars]
+branch=origin/Rendered/Nederlands
