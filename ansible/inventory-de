@@ -1,5 +1,6 @@
 [staging]
 smp-web02
+smp-web01
  
 [prod]
 de_server1 ansible_host=77.90.50.11
