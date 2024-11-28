@@ -91,7 +91,7 @@ replacements:
   VARIABLE-VPSBUYTEXT: "Order server"
   VARIABLE-VPSRENEW: "Will be extended automatically."
   VARIABLE-COMPONENTS-TEXT: "Components"
-  VARIABLE-CPU-CORES: "shared cores"
+  VARIABLE-CPU-CORES: "Xeon V2/3 Cores"
   VARIABLE-MEMORY: "GB ECC RAM"
   VARIABLE-STORAGE: "GB SSD Storage"
   VARIABLE-UPLINK: "up to 10 Gbit/s uplink (shared)"
