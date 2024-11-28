@@ -316,3 +316,11 @@ replacements:
 # ü wird zu &uuml;
 # ä wird zu &auml;
 # no-break space mit &nbsp;
+
+  BLACKFRIDAY-TITLE: "Black Friday Aanbieding"
+  BLACKFRIDAYTEXT1: "Tot 50% korting op alle configuratorprijzen"
+  BLACKFRIDAYTEXT2: "met de code: <b>blackweek</b>"
+  BLACKFRIDAYCLAIM: "Deal claimen"
+  BLACKFRIDAYSMALL: "*30 dagen geld-terug-garantie"
+  BLACKFRIDAYOFF: "KORTING"
+  BLACKFRIDAYLIMITED: "Beperkte aanbieding"
