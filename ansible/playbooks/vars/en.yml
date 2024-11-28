@@ -317,3 +317,11 @@ replacements:
 # ü wird zu &uuml;
 # ä wird zu &auml;
 # no-break space mit &nbsp;
+
+  BLACKFRIDAY-TITLE: "Black Friday Sale"
+  BLACKFRIDAYTEXT1: "Up to 50% off all Configurator Prices"
+  BLACKFRIDAYTEXT2: "with Code: <b>blackweek</b>"
+  BLACKFRIDAYCLAIM: "Claim Deal"
+  BLACKFRIDAYSMALL: "*30 days money back guarantee"
+  BLACKFRIDAYOFF: "OFF"
+  BLACKFRIDAYLIMITED: "Limited Offer"
