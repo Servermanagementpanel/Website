@@ -98,7 +98,7 @@ replacements:
   VARIABLE-ADDITIONAL-SERVICES: "Additional services"
   VARIABLE-IPv4: "1 IPv4 address"
   VARIABLE-IPv6: "1 IPv6 /48 subnet"
-  VARIABLE-TRAFFIC: "150TB Traffic*"
+  VARIABLE-TRAFFIC: "150TB Traffic"
   VARIABLE-DDoS-PROTECTION: "3.2 Tbit/s DDoS protection"
   VARIABLE-NO-CONTRACT: "No contract commitment"
   VARIABLE-COLOSITE: "Location: Eygelshoven, <br>at the German border near Aachen"
