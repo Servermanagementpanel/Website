@@ -92,6 +92,8 @@ replacements:
   VARIABLE-CPU-CORES: "gedeelde cores"
   VARIABLE-MEMORY: "GB ECC RAM"
   VARIABLE-STORAGE: "GB SSD-opslag"
+  VARIABLE-ONLYMEMORY: "ECC RAM"
+  VARIABLE-ONLYSTORAGE: "NVMe SSD-opslag"
   VARIABLE-UPLINK: "tot 10 Gbit/s uplink (gedeeld)"
   VARIABLE-ADDITIONAL-SERVICES: "Aanvullende diensten"
   VARIABLE-IPv4: "1 IPv4-adres"
