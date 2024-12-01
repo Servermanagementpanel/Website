@@ -326,7 +326,7 @@ replacements:
   BLACKFRIDAYLIMITED: "Beperkte aanbieding"
 
   CONFIGURATOR-BADGE: "Server Configurator"
-  CONFIGURATOR-TITLE: "Configureer Uw <span class="id-color">Server</span>"
+  CONFIGURATOR-TITLE: "Configureer Uw <span class=&quot;id-color&quot;>Server</span>"
   CONFIGURATOR-SUBTUTLE: "vServer bestellen"
   CONFIGURATOR-INKLUSIVE: "inbegrepen"
   CONFIGURATOR-BASEPRICE: "Basisprijs"

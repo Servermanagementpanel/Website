@@ -327,7 +327,7 @@ replacements:
   BLACKFRIDAYLIMITED: "Limited Offer"
 
   CONFIGURATOR-BADGE: "Server Configurator"
-  CONFIGURATOR-TITLE: "Configure Your <span class="id-color">Server</span>"
+  CONFIGURATOR-TITLE: "Configure Your <span class=&quot;id-color&quot;>Server</span>"
   CONFIGURATOR-SUBTUTLE: "Order vServer"
   CONFIGURATOR-INKLUSIVE: "included"
   CONFIGURATOR-BASEPRICE: "Base Price"
