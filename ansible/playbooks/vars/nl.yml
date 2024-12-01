@@ -324,3 +324,13 @@ replacements:
   BLACKFRIDAYSMALL: "*30 dagen geld-terug-garantie"
   BLACKFRIDAYOFF: "KORTING"
   BLACKFRIDAYLIMITED: "Beperkte aanbieding"
+
+  CONFIGURATOR-BADGE: "Server Configurator"
+  CONFIGURATOR-TITLE: "Configureer Uw <span class=&quot;id-color&quot;>Server</span>"
+  CONFIGURATOR-SUBTUTLE: "vServer bestellen"
+  CONFIGURATOR-INKLUSIVE: "inbegrepen"
+  CONFIGURATOR-BASEPRICE: "Basisprijs"
+  CONFIGURATOR-30DAYS: "Looptijd: 30 dagen"
+  CONFIGURATOR-OLDPRICE: "Oorspronkelijke prijs"
+  CONFIGURATOR-COUPONCODE: "Kortingscode &quot;blackweek&quot;"
+  CONFIGURATOR-TOTAL: "Totaalprijs"
