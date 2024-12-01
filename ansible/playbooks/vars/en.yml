@@ -94,6 +94,8 @@ replacements:
   VARIABLE-CPU-CORES: "Xeon V2/3 Cores"
   VARIABLE-MEMORY: "GB ECC RAM"
   VARIABLE-STORAGE: "GB SSD Storage"
+  VARIABLE-ONLYMEMORY: "ECC RAM"
+  VARIABLE-ONLYSTORAGE: "NVMe SSD Storage"
   VARIABLE-UPLINK: "up to 10 Gbit/s uplink (shared)"
   VARIABLE-ADDITIONAL-SERVICES: "Additional services"
   VARIABLE-IPv4: "1 IPv4 address"

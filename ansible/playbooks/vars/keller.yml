@@ -94,6 +94,8 @@ replacements:
   VARIABLE-CPU-CORES: "shared Kerne"
   VARIABLE-MEMORY: "GB ECC RAM"
   VARIABLE-STORAGE: "GB SSD Storage"
+  VARIABLE-ONLYMEMORY: "ECC RAM"
+  VARIABLE-ONLYSTORAGE: "NVMe SSD Storage"
   VARIABLE-UPLINK: "bis zu 10 Gbit/s Uplink (shared)"
   VARIABLE-ADDITIONAL-SERVICES: "Zusätzliche Leistungen"
   VARIABLE-IPv4: "1 IPv4 Adresse"
