@@ -94,8 +94,8 @@ HEADERHEADERHEADER
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3">
                             <div class="text-center">
-                                <h5 class="s2">Server Konfigurator</h5>
-                                <h2>Konfiguriere Deinen <span class="id-color">Server</span></h2>
+                                <h5 class="s2">CONFIGURATOR-BADGE</h5>
+                                <h2>CONFIGURATOR-TITLE</h2>
                                 <div class="spacer-20"></div>
                             </div>
                         </div>
@@ -103,20 +103,20 @@ HEADERHEADERHEADER
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="de_pricing-table type-2">
-                                <h3>vServer bestellen</h3>
+                                <h3>CONFIGURATOR-SUBTUTLE</h3>
                                 <div class="d-group">
-                                    <h4>CPU Kerne</h4>
+                                    <h4>VARIABLE-CPU-CORES</h4>
                                     <input type="range" class="form-range" id="cpuRange" min="1" max="12" value="1" oninput="calculatePrice()">
                                     <span id="cpuValue">1 Kern</span>
                                 </div>
                                 <div class="d-group">
-                                    <h4>ECC RAM</h4>
+                                    <h4>VARIABLE-ONLYMEMORY</h4>
                                     <input type="range" class="form-range" id="ramRange" min="1" max="64" value="1" oninput="calculatePrice()">
                                     <span id="ramValue">1 GB</span>
                                 </div>
                                 <div class="d-group">
-                                    <h4>NVMe SSD Speicher</h4>
-                                    <input type="range" class="form-range" id="ssdRange" min="25" max="500" step="5" value="25" oninput="calculatePrice()">
+                                    <h4>VARIABLE-ONLYSTORAGE</h4>
+                                    <input type="range" class="form-range" id="ssdRange" min="25" max="500" step="25" value="25" oninput="calculatePrice()">
                                     <span id="ssdValue">25 GB</span>
                                 </div>
                             </div>
@@ -125,40 +125,44 @@ HEADERHEADERHEADER
                             <div class="de_pricing-table type-2">
                                 <div class="pricing-info">
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>Grundpreis</span>
+                                        <span>CONFIGURATOR-BASEPRICE</span>
                                         <span>1,50 €</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>CPU Kerne</span>
+                                        <span>VARIABLE-CPU-CORES</span>
                                         <span><span id="cpuPrice">0,00</span> €</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>Arbeitsspeicher</span>
+                                        <span>VARIABLE-ONLYMEMORY</span>
                                         <span><span id="ramPrice">0,00</span> €</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>NVMe SSD Speicher</span>
+                                        <span>VARIABLE-ONLYSTORAGE</span>
                                         <span><span id="ssdPrice">0,00</span> €</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>IPv4 & IPv6 (/48) Adressen</span>
-                                        <span>0,00 €</span>
+                                        <span>VARIABLE-IPv4</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>Traffic: bis zu 150TB inklusive</span>
-                                        <span>0,00 €</span>
+                                        <span>VARIABLE-IPv6</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>Anbindung: 2x 10 GBit/s LACP Shared</span>
-                                        <span>0,00 €</span>
+                                        <span>VARIABLE-TRAFFIC</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>DDoS Schutz: 3,2 TBit/s aurologic</span>
-                                        <span>0,00 €</span>
+                                        <span>VARIABLE-UPLINK</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>Laufzeit: 30 Tage</span>
-                                        <span>0,00 €</span>
+                                        <span>VARIABLE-DDoS-PROTECTION</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>CONFIGURATOR-30DAYS</span>
+                                        <span></span>
                                     </div>
                                     <hr>
                                     <div class="d-flex justify-content-between mb-1">
@@ -166,14 +170,14 @@ HEADERHEADERHEADER
                                         <span><span id="originalPrice">1,50</span>€</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span style="color: #0075fe">Rabattcode "blackweek"</span>
+                                        <span style="color: #0075fe">CONFIGURATOR-COUPONCODE</span>
                                         <span>-50%</span>
                                     </div>
                                 </div>
 
                                 <div class="d-price text-center mt-4">
-                                    <h2>Gesamtpreis: <span id="totalPrice">0,75</span>€ / Monat</h2>
-                                    <a href="https://cp.servermanagementpanel.de/order" class="btn-main">Bestellen</a>
+                                    <h2>CONFIGURATOR-TOTAL: <span id="totalPrice">0,75</span>€ VARIABLE-VPSMONTH</h2>
+                                    <a href="VARIABLE-WEBSITEORDERURL" class="btn-main">VARIABLE-VPSBUYTEXT</a>
                                 </div>
                             </div>
                         </div>

@@ -20,7 +20,7 @@ function calculatePrice() {
     document.getElementById('cpuPrice').textContent = cpuPrice.toFixed(2);
     document.getElementById('ramPrice').textContent = ramPrice.toFixed(2);
     document.getElementById('ssdPrice').textContent = ssdPrice.toFixed(2);
-    document.getElementById('cpuValue').textContent = cpuCores + (cpuCores === 1 ? ' Kern' : ' Kerne');
+    document.getElementById('cpuValue').textContent = cpuCores + (cpuCores === 1 ? ' Core' : ' Cores');
     document.getElementById('ramValue').textContent = ram + ' GB';
     document.getElementById('ssdValue').textContent = ssd + ' GB';
 }

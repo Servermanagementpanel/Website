@@ -324,3 +324,13 @@ replacements:
   BLACKFRIDAYSMALL: "*Garantie de remboursement de 30 jours"
   BLACKFRIDAYOFF: "RÉDUCTION"
   BLACKFRIDAYLIMITED: "Offre limitée"
+
+  CONFIGURATOR-BADGE: "Configurateur de Serveur"
+  CONFIGURATOR-TITLE: "Configurez Votre <span class="id-color">Serveur</span>"
+  CONFIGURATOR-SUBTUTLE: "Commander vServer"
+  CONFIGURATOR-INKLUSIVE: "inclus"
+  CONFIGURATOR-BASEPRICE: "Prix de base"
+  CONFIGURATOR-30DAYS: "Durée: 30 jours"
+  CONFIGURATOR-OLDPRICE: "Prix d'origine"
+  CONFIGURATOR-COUPONCODE: "Code promo &quot;blackweek&quot;"
+  CONFIGURATOR-TOTAL: "Prix total"
