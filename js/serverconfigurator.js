@@ -13,10 +13,10 @@ function calculatePrice() {
     const ssdPrice = ((ssd - 25) / 25) * basePricePerSSD;
 
     const totalPrice = basePrice + cpuPrice + ramPrice + ssdPrice;
-    const discountedPrice = totalPrice * 0.5; // 50% Rabatt
+    // const discountedPrice = totalPrice * 0.5; // 50% Rabatt
     
     document.getElementById('originalPrice').textContent = totalPrice.toFixed(2);
-    document.getElementById('totalPrice').textContent = discountedPrice.toFixed(2);
+    // document.getElementById('totalPrice').textContent = discountedPrice.toFixed(2);
     document.getElementById('cpuPrice').textContent = cpuPrice.toFixed(2);
     document.getElementById('ramPrice').textContent = ramPrice.toFixed(2);
     document.getElementById('ssdPrice').textContent = ssdPrice.toFixed(2);
