@@ -353,7 +353,7 @@
         <div class="no-bottom no-top" id="icons-etline.html">
             <div id="top"></div>
             <section id="section-hero" class="v-center" aria-label="section" data-bgimage='url(https://www.servermanagementpanel.fr/images/background/dark-1.jpg) top #101224'>
-                <div class="container">
+                <!-- <div class="container">
                     <div class="spacer-double sm-hide"></div>
                     <div class="row align-items-center">
                         <div class="col-lg-7">
@@ -373,8 +373,8 @@
                             </h1>
                         </div>
                     </div>
-                </div>
-                <!--<div class="container">
+                </div> -->
+                <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-10 offset-lg-1 text-center">
                             <div class="spacer-single"></div>
@@ -394,7 +394,7 @@
                             <p class="wow fadeInUp" data-wow-delay=".2s">Hébergement haute performance et sécurisé pour votre site web. <br>Louez votre VPS rapide maintenant et commencez! <br> Hébergement NVMe SSD ultra rapide.</p>
                         </div>
                     </div>
-                </div>-->
+                </div>
             </section>
             <section class="no-top no-bottom" aria-label="section">
                 <div class="container">
@@ -434,6 +434,102 @@
                                     Optimisé pour les systèmes de gestion de contenu tels que WordPress.
                                 </div>
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-configurator" class="no-top text-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-3">
+                            <div class="text-center">
+                                <h5 class="s2">CONFIGURATOR-BADGE</h5>
+                                <h2>CONFIGURATOR-TITLE</h2>
+                                <div class="spacer-20"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <h3>CONFIGURATOR-SUBTUTLE</h3>
+                                <div class="d-group">
+                                    <h4>cœurs partagés</h4>
+                                    <input type="range" class="form-range" id="cpuRange" min="1" max="12" value="1" oninput="calculatePrice()">
+                                    <span id="cpuValue">1 Core</span>
+                                </div>
+                                <div class="d-group">
+                                    <h4>RAM ECC</h4>
+                                    <input type="range" class="form-range" id="ramRange" min="1" max="64" value="1" oninput="calculatePrice()">
+                                    <span id="ramValue">1 GB</span>
+                                </div>
+                                <div class="d-group">
+                                    <h4>stockage SSD NVMe</h4>
+                                    <input type="range" class="form-range" id="ssdRange" min="25" max="500" step="25" value="25" oninput="calculatePrice()">
+                                    <span id="ssdValue">25 GB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <div class="pricing-info">
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>CONFIGURATOR-BASEPRICE</span>
+                                        <span>1,50 €</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>cœurs partagés</span>
+                                        <span><span id="cpuPrice">0,00</span> €</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>RAM ECC</span>
+                                        <span><span id="ramPrice">0,00</span> €</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>stockage SSD NVMe</span>
+                                        <span><span id="ssdPrice">0,00</span> €</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>1 adresse IPv4</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>1 sous-réseau IPv6 /48</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>150 To de trafic*</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>jusqu'à 10 Gbit/s de bande passante (partagée)</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>Protection DDoS de 3.2 Tbit/s</span>
+                                        <span>CONFIGURATOR-INKLUSIVE</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>CONFIGURATOR-30DAYS</span>
+                                        <span></span>
+                                    </div>
+                                    <hr>
+                                    <!-- <div class="d-flex justify-content-between mb-1">
+                                        <span>Ursprünglicher Preis</span>
+                                        <span><span id="originalPrice">1,50</span>€</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span style="color: #0075fe">CONFIGURATOR-COUPONCODE</span>
+                                        <span>-50%</span>
+                                    </div> -->
+                                </div>
+
+                                <div class="d-price text-center mt-4">
+                                    <!-- <h2>CONFIGURATOR-TOTAL: <span id="totalPrice">0,75</span>€ /mois</h2> -->
+                                    <h2>CONFIGURATOR-TOTAL: <span id="originalPrice">1,50</span>€ /mois</h2>
+                                    <a href="https://cp.servermanagementpanel.de/order" class="btn-main">Commander un serveur</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -921,6 +1017,7 @@
                                 <p class="lead">Si vous n'êtes pas satisfait, nous vous remboursons simplement. Pas d'effort, pas de risque. Vous pouvez annuler votre serveur à tout moment.</p>
                                 <div class="spacer-half"></div>
                                 <a class="btn-main" href="https://cp.servermanagementpanel.de">Vers le panneau</a>
+                                <p class="d-small mt20">
                                 <p class="d-small mt20">*Les remboursements ne peuvent être effectués que dans les 30 premiers jours</p> 
                             </div>
                         </div>
@@ -961,7 +1058,7 @@
                                 <li><a href="https://nerdscave-hosting.com/highly-available-kvm-server/">Serveur CEPH HA KVM</a></li>
                                 <li><a href="https://nerdscave-hosting.com/ryzen-performance-kvm/">Serveur KVM Ryzen Performance</a></li>
                                 <li><a href="https://nerdscave-hosting.com/dedicated/">Serveur dédié</a></li>
-                                <li><a href="https://cp.servermanagementpanel.de/support">Annulation</a></li>
+                                <li><a href="VARIABLE-FOOTER-HOSTINGROW-7URL">Annulation</a></li>
                                 <li><a href="https://cp.servermanagementpanel.de/support">Support</a></li>
                             </ul>
                         </div>
@@ -1045,6 +1142,7 @@
     ================================================== -->
     <script src="https://www.servermanagementpanel.fr/js/plugins.js" type="text/javascript"></script>
     <script src="https://www.servermanagementpanel.fr/js/designesia.js" type="text/javascript"></script>
+    <script src="https://www.servermanagementpanel.fr/js/serverconfigurator.js" type="text/javascript"></script>
 
     <script src="https://www.servermanagementpanel.fr/js/jquery.countdown.js" type="text/javascript"></script>
     <script src="https://www.servermanagementpanel.fr/js/countdown-custom.js" type="text/javascript"></script>
@@ -1085,3 +1183,4 @@
 </body>
 
 </html>
+    
