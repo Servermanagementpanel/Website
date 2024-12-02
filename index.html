@@ -353,7 +353,7 @@
         <div class="no-bottom no-top" id="icons-etline.html">
             <div id="top"></div>
             <section id="section-hero" class="v-center" aria-label="section" data-bgimage='url(https://www.servermanagementpanel.de/images/background/dark-1.jpg) top #101224'>
-                <div class="container">
+                <!-- <div class="container">
                     <div class="spacer-double sm-hide"></div>
                     <div class="row align-items-center">
                         <div class="col-lg-7">
@@ -373,8 +373,8 @@
                             </h1>
                         </div>
                     </div>
-                </div>
-                <!--<div class="container">
+                </div> -->
+                <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-10 offset-lg-1 text-center">
                             <div class="spacer-single"></div>
@@ -394,7 +394,7 @@
                             <p class="wow fadeInUp" data-wow-delay=".2s">Hochperformantes, Sicheres Hosting für deine Website. <br>Miete jetzt deinen schnellen VPS und lege los! <br>Ultra Schnelles NVMe SSD Hosting.</p>
                         </div>
                     </div>
-                </div>-->
+                </div>
             </section>
             <section class="no-top no-bottom" aria-label="section">
                 <div class="container">
@@ -444,7 +444,7 @@
                         <div class="col-lg-6 offset-lg-3">
                             <div class="text-center">
                                 <h5 class="s2">Server Konfigurator</h5>
-                                <h2>Konfiguriere Deinen <span class="id-color">Server</span></h2>
+                                <h2>Konfiguriere Deinen <span class=&quot;id-color&quot;>Server</span></h2>
                                 <div class="spacer-20"></div>
                             </div>
                         </div>
@@ -454,7 +454,7 @@
                             <div class="de_pricing-table type-2">
                                 <h3>vServer bestellen</h3>
                                 <div class="d-group">
-                                    <h4>CPU Kerne</h4>
+                                    <h4>Xeon V2/3 Kerne</h4>
                                     <input type="range" class="form-range" id="cpuRange" min="1" max="12" value="1" oninput="calculatePrice()">
                                     <span id="cpuValue">1 Kern</span>
                                 </div>
@@ -464,8 +464,8 @@
                                     <span id="ramValue">1 GB</span>
                                 </div>
                                 <div class="d-group">
-                                    <h4>NVMe SSD Speicher</h4>
-                                    <input type="range" class="form-range" id="ssdRange" min="25" max="500" step="5" value="25" oninput="calculatePrice()">
+                                    <h4>NVMe SSD Storage</h4>
+                                    <input type="range" class="form-range" id="ssdRange" min="25" max="500" step="25" value="25" oninput="calculatePrice()">
                                     <span id="ssdValue">25 GB</span>
                                 </div>
                             </div>
@@ -478,51 +478,56 @@
                                         <span>1,50 €</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>CPU Kerne</span>
+                                        <span>Xeon V2/3 Kerne</span>
                                         <span><span id="cpuPrice">0,00</span> €</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>Arbeitsspeicher</span>
+                                        <span>ECC RAM</span>
                                         <span><span id="ramPrice">0,00</span> €</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>NVMe SSD Speicher</span>
+                                        <span>NVMe SSD Storage</span>
                                         <span><span id="ssdPrice">0,00</span> €</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>IPv4 & IPv6 (/48) Adressen</span>
-                                        <span>0,00 €</span>
+                                        <span>1 IPv4 Adresse</span>
+                                        <span>inklusive</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>Traffic: bis zu 150TB inklusive</span>
-                                        <span>0,00 €</span>
+                                        <span>1 IPv6 /48 Subnetz</span>
+                                        <span>inklusive</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>Anbindung: 2x 10 GBit/s LACP Shared</span>
-                                        <span>0,00 €</span>
+                                        <span>150TB Traffic</span>
+                                        <span>inklusive</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span>DDoS Schutz: 3,2 TBit/s aurologic</span>
-                                        <span>0,00 €</span>
+                                        <span>bis zu 10 Gbit/s Uplink (shared)</span>
+                                        <span>inklusive</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-1">
+                                        <span>3,2 Tbit/s DDoS Schutz</span>
+                                        <span>inklusive</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
                                         <span>Laufzeit: 30 Tage</span>
-                                        <span>0,00 €</span>
+                                        <span></span>
                                     </div>
                                     <hr>
-                                    <div class="d-flex justify-content-between mb-1">
+                                    <!-- <div class="d-flex justify-content-between mb-1">
                                         <span>Ursprünglicher Preis</span>
                                         <span><span id="originalPrice">1,50</span>€</span>
                                     </div>
                                     <div class="d-flex justify-content-between mb-1">
-                                        <span style="color: #0075fe">Rabattcode "blackweek"</span>
+                                        <span style="color: #0075fe">Rabattcode &quot;blackweek&quot;</span>
                                         <span>-50%</span>
-                                    </div>
+                                    </div> -->
                                 </div>
 
                                 <div class="d-price text-center mt-4">
-                                    <h2>Gesamtpreis: <span id="totalPrice">0,75</span>€ / Monat</h2>
-                                    <a href="https://cp.servermanagementpanel.de/order" class="btn-main">Bestellen</a>
+                                    <!-- <h2>Gesamtpreis: <span id="totalPrice">0,75</span>€ /Monat</h2> -->
+                                    <h2>Gesamtpreis: <span id="originalPrice">1,50</span>€ /Monat</h2>
+                                    <a href="https://cp.servermanagementpanel.de/order" class="btn-main">Server bestellen</a>
                                 </div>
                             </div>
                         </div>
@@ -572,7 +577,7 @@
                                     <ul class="d-list">
                                         <li>4 Xeon V2/3 Kerne</li>
                                         <li>2 GB ECC RAM</li>
-                                        <li>25GB SSD Storage</li>
+                                        <li>25GB NVMe SSD Storage</li>
                                         <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
@@ -611,7 +616,7 @@
                                     <ul class="d-list">
                                         <li>6 Xeon V2/3 Kerne</li>
                                         <li>4 GB ECC RAM</li>
-                                        <li>50GB SSD Storage</li>
+                                        <li>50GB NVMe SSD Storage</li>
                                         <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
@@ -652,7 +657,7 @@
                                     <ul class="d-list">
                                         <li>6 Xeon V2/3 Kerne</li>
                                         <li>6 GB ECC RAM</li>
-                                        <li>75 GB SSD Storage</li>
+                                        <li>75 GB NVMe SSD Storage</li>
                                         <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
@@ -692,7 +697,7 @@
                                     <ul class="d-list">
                                         <li>6 Xeon V2/3 Kerne</li>
                                         <li>8 GB ECC RAM</li>
-                                        <li>100 GB SSD Storage</li>
+                                        <li>100 GB NVMe SSD Storage</li>
                                         <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
@@ -731,7 +736,7 @@
                                     <ul class="d-list">
                                         <li>6 Xeon V2/3 Kerne</li>
                                         <li>12 GB ECC RAM</li>
-                                        <li>150 GB SSD Storage</li>
+                                        <li>150 GB NVMe SSD Storage</li>
                                         <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
@@ -770,7 +775,7 @@
                                     <ul class="d-list">
                                         <li>6 Xeon V2/3 Kerne</li>
                                         <li>16 GB ECC RAM</li>
-                                        <li>200 GB SSD Storage</li>
+                                        <li>200 GB NVMe SSD Storage</li>
                                         <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
@@ -809,7 +814,7 @@
                                     <ul class="d-list">
                                         <li>8 Xeon V2/3 Kerne</li>
                                         <li>24 GB ECC RAM</li>
-                                        <li>300 GB SSD Storage</li>
+                                        <li>300 GB NVMe SSD Storage</li>
                                         <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
@@ -848,7 +853,7 @@
                                     <ul class="d-list">
                                         <li>12 Xeon V2/3 Kerne</li>
                                         <li>32 GB ECC RAM</li>
-                                        <li>400 GB SSD Storage</li>
+                                        <li>400 GB NVMe SSD Storage</li>
                                         <li>bis zu 10 Gbit/s Uplink (shared)</li>
 
                                     </ul>
@@ -1012,6 +1017,7 @@
                                 <p class="lead">Wenn du nicht zufrieden bist erstatten wir dir dein Geld einfach wieder zurück. Kein Aufwand, Kein Risiko. Du kannst deinen Server jederzeit kündigen.</p>
                                 <div class="spacer-half"></div>
                                 <a class="btn-main" href="https://cp.servermanagementpanel.de">Zum Panel</a>
+                                <p class="d-small mt20">
                                 <p class="d-small mt20">*Rückerstattungen können nur innerhalb der ersten 30 Tage erfolgen</p> 
                             </div>
                         </div>
@@ -1052,7 +1058,7 @@
                                 <li><a href="https://nerdscave-hosting.de/hochverfugbare-kvm-server/">CEPH HA KVM Server</a></li>
                                 <li><a href="https://nerdscave-hosting.de/ryzen-performance-kvm/">Ryzen Performance KVM Server</a></li>
                                 <li><a href="https://nerdscave-hosting.de/dedicated/">Dedicated Server</a></li>
-                                <li><a href="https://cp.servermanagementpanel.de/support">Kündigung</a></li>
+                                <li><a href="VARIABLE-FOOTER-HOSTINGROW-7URL">Kündigung</a></li>
                                 <li><a href="https://cp.servermanagementpanel.de/support">Support</a></li>
                             </ul>
                         </div>
@@ -1177,3 +1183,4 @@
 </body>
 
 </html>
+    

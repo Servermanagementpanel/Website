@@ -93,6 +93,8 @@ replacements:
   VARIABLE-CPU-CORES: "cœurs partagés"
   VARIABLE-MEMORY: "GB de RAM ECC"
   VARIABLE-STORAGE: "GB de stockage SSD"
+  VARIABLE-ONLYMEMORY: "RAM ECC"
+  VARIABLE-ONLYSTORAGE: "stockage SSD NVMe"
   VARIABLE-UPLINK: "jusqu'à 10 Gbit/s de bande passante (partagée)"
   VARIABLE-ADDITIONAL-SERVICES: "Services supplémentaires"
   VARIABLE-IPv4: "1 adresse IPv4"
