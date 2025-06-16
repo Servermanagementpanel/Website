@@ -6,8 +6,26 @@
 
 Authored and maintained by Moritz Mantel.
 
-[@Portfolio](https://moritz-mantel.de) · [@GitHub](https://github.com/minerswin) · [@LinkedIn](https://www.linkedin.com/in/moritz-mantel/) · [@Xing](https://www.xing.com/profile/Moritz_Mantel/cv) · [@Twitter](https://twitter.com/minerswins)
+[🇩🇪 Deutsche Website](https://servermanagementpanel.de) · [🇬🇧 English Website](https://servermanagementpanel.com) · [Customer&nbsp;Panel](https://cp.servermanagementpanel.de) · [Support](https://cp.servermanagementpanel.de/support) · [Twitter/X](https://x.com/Servermgmtpanel) · [Bluesky](https://bsky.app/profile/servermanagementpanel.de) · [Discord](https://discord.gg/ehfKGNmqNc)
 
+---
+
+## 🚀 Quick Overview
+
+**Servermanagementpanel** ist unser hochperformantes Hosting-Angebot für Entwickler, Gamer & Businesses. Du erhältst KVM-basierte VPS-Server, NVMe-Storage, DDoS-Schutz und einen transparenten PrePaid-Zahlungsprozess.
+
+### Highlights
+- Sofortige Bereitstellung (⩽ 60 Sekunden)
+- Standort: Eygelshoven (DE/NL-Grenze) mit bis zu 10 Gbit/s Uplink
+- 30 Tage Geld-zurück-Garantie
+- Volle Root-Rechte & IPv4 + /48 IPv6
+- Deutscher Support mit <24h Reaktionszeit
+
+Mehr Infos & Preise findest du auf unserer Live-Seite 👉 <https://servermanagementpanel.com>
+
+## 📚 Dokumentation
+- Technische Architektur: [`docs/architecture.md`](docs/architecture.md)
+- Tech-Stack & Designprinzipien: [`docs/techstack.md`](docs/techstack.md)
 
 ---
 
