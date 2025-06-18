@@ -24,6 +24,8 @@ replacements:
   VARIABLE-MENUHOSTINGDESCRIPTION: "Hochperformantes, Sicheres Hosting für deine Website. Miete jetzt deinen schnellen VPS und lege los! Ultra Schnelles NVMe SSD Hosting."
   VARIABLE-MENUHOSTINGITEM1TITLE: "KVM VPS Hosting"
   VARIABLE-MENUHOSTINGITEM1DESCRIPTION: "Einfaches und Starkes Hosting für jeden!"
+  VARIABLE-MENUHOSTINGITEM2TITLE: "Backup Datastore"
+  VARIABLE-MENUHOSTINGITEM2DESCRIPTION: "PBS-kompatibler Speicherplatz für deine Backups"
   VARIABLE-MENUSUPPORT: "Support"
   VARIABLE-MENUABOUTUS: "About Us"
   VARIABLE-MENU-GTC: "AGB"
@@ -94,6 +96,8 @@ replacements:
   VARIABLE-CPU-CORES: "shared Kerne"
   VARIABLE-MEMORY: "GB ECC RAM"
   VARIABLE-STORAGE: "GB SSD Storage"
+  VARIABLE-ONLYMEMORY: "ECC RAM"
+  VARIABLE-ONLYSTORAGE: "NVMe SSD Storage"
   VARIABLE-UPLINK: "bis zu 10 Gbit/s Uplink (shared)"
   VARIABLE-ADDITIONAL-SERVICES: "Zusätzliche Leistungen"
   VARIABLE-IPv4: "1 IPv4 Adresse"
@@ -117,17 +121,17 @@ replacements:
   VARIABLE-FEATUREROW4-TEXT: "All unsere Server werden täglich sowohl auf Schallplatte als auch auf Steintafeln gesichert. Zusätzlich können eigene Backups natürlich jederzeit abgeschrieben werden."
 
  #PREPAID EXPLAINATION
-  VARIABLE-PREPAID-BADGE: "Prepaid System"
-  VARIABLE-PREPAID-TITLE: "4 Einfache Schritte"
-  VARIABLE-PREPAID-SUBTEXT: "Dank unseren PrePaid Produkten wird Mahnungen und Zahlungsverzügen ein Ende gesetzt."
-  VARIABLE-PREPAID1-TITLE: "Produkt aussuchen"
-  VARIABLE-PREPAID1-TEXT: "Suche dir die passende Konfiguration für deine Anforderungen aus. Gerne stellen wir temporäre Server zum testen bereit."
-  VARIABLE-PREPAID2-TITLE: "Account Erstellen"
-  VARIABLE-PREPAID2-TEXT: "Erstelle dir vollkommen kostenlos und unverbindlich einen Account in unserem Controlpanel."
+  VARIABLE-PREPAID-BADGE: "Prepaid Kellerkraft"
+  VARIABLE-PREPAID-TITLE: "In 4 einfachen Schritten"
+  VARIABLE-PREPAID-SUBTEXT: "Mit unseren Prepaid-Produkten ist Schluss mit Mahnungen – und stressigen Rechnungen."
+  VARIABLE-PREPAID1-TITLE: "Wähle dein Kellerprodukt"
+  VARIABLE-PREPAID1-TEXT: "Such dir die richtige Konfiguration für deinen Kellerbedarf aus. Testserver? Kein Problem!"
+  VARIABLE-PREPAID2-TITLE: "Account anlegen"
+  VARIABLE-PREPAID2-TEXT: "Ohne Daten läuft nix! Kostenlos und unverbindlich, versprochen."
   VARIABLE-PREPAID3-TITLE: "Guthaben aufladen"
-  VARIABLE-PREPAID3-TEXT: "Lade dir dein gewünschtes Guthaben mit der Zahlungsart deiner Wahl auf. Vollkommen Gebührenfrei."
-  VARIABLE-PREPAID4-TITLE: "Server bestellen und nutzen"  
-  VARIABLE-PREPAID4-TEXT: "Nach der Bestellung wird der Server innerhalb von Minuten automatisiert bereitgestellt und ist sofort Einsatzbereit."
+  VARIABLE-PREPAID3-TEXT: "Wer weiß, wann wir mal Schmiergeld brauchen – besser das Guthaben ist aufgeladen!"
+  VARIABLE-PREPAID4-TITLE: "Server starten"
+  VARIABLE-PREPAID4-TEXT: "Bestell den Server, und binnen Minuten steht er – bereit für den kellerkalten Einsatz!"
 
 # TESTIMONIALS
   VARIABLE-TESTIMONIALS-TEXT: "Rezensionen"
@@ -190,6 +194,22 @@ replacements:
   VARIABLE-FOOTER-NETWORK-POINT3: "- buchen von weiteren IP-Adressen auf Anfrage möglich"
   VARIABLE-FOOTER-SOCIAL-TITLE: "Folge uns auf:"
   VARIABLE-FOOTER-COPYRIGHT: "Copyright 2024 - Servermanagementpanel"
+
+#DATASTORE
+  VARIABLE-DATASTORE-HERO-TITLE: "Backup Datastore"
+  VARIABLE-DATASTORE-HERO-SUBTITLE: "Flexible Speicher für deine Proxmox Server Backups."
+  VARIABLE-DATASTORE-DESCRIPTION1: "Miete deduplizierten Speicherplatz ab 100 GB – voll kompatibel mit Proxmox Backup Server. Bezahle nur das gebuchte Volumen, bequem und Prepaid."
+  VARIABLE-DATASTORE-FEATURES-TITLE: "Highlights"
+  VARIABLE-DATASTORE-FEATURE1: "Deduplizierter Speicher – spart Platz und Traffic"
+  VARIABLE-DATASTORE-FEATURE2: "Standorte Frankfurt & Hamburg"
+  VARIABLE-DATASTORE-FEATURE3: "Dynamisch erweiterbar in 100 GB-Schritten"
+  VARIABLE-DATASTORE-FEATURE4: "24/7 Panel für Verwaltung und Logs"
+  VARIABLE-DATASTORE-PRICE-TITLE: "Preise"
+  VARIABLE-DATASTORE-PRICE-SMALLTEXT: "Abrechnung stündlich nach gebuchtem Volumen"
+  VARIABLE-DATASTORE-CTA: "Jetzt Datastore mieten"
+  VARIABLE-DATASTORE-PAYMENTINFO: "Prepaid – keine Vertragsbindung"
+  VARIABLE-DATASTORE-LOCATION-TITLE: "Made in Germany"
+  VARIABLE-DATASTORE-LOCATION-DESC: "Deine Backups liegen sicher in deutschen Rechenzentren in Frankfurt und Hamburg."
 
 #404
   VARIABLE-404PAGE-Text1: "Irgendwas fehlt ..."
@@ -317,3 +337,21 @@ replacements:
 # ü wird zu &uuml;
 # ä wird zu &auml;
 # no-break space mit &nbsp;
+
+  BLACKFRIDAY-TITLE: "Black Friday Sale"
+  BLACKFRIDAYTEXT1: "Bis zu 50% auf alle Konfiguratorpreise"
+  BLACKFRIDAYTEXT2: "mit dem Code: <b>blackweek</b>"
+  BLACKFRIDAYCLAIM: "Deal einlösen"
+  BLACKFRIDAYSMALL: "*30 Tage Geld zurück Garantie"
+  BLACKFRIDAYOFF: "RABATT"
+  BLACKFRIDAYLIMITED: "Limitiertes Angebot"
+
+  CONFIGURATOR-BADGE: "Server Konfigurator"
+  CONFIGURATOR-TITLE: "Konfiguriere Deinen <span class=&quot;id-color&quot;>Server</span>"
+  CONFIGURATOR-SUBTUTLE: "vServer bestellen"
+  CONFIGURATOR-INKLUSIVE: "inklusive"
+  CONFIGURATOR-BASEPRICE: "Grundpreis"
+  CONFIGURATOR-30DAYS: "Laufzeit: 30 Tage"
+  CONFIGURATOR-OLDPRICE: "Ursprünglicher Preis"
+  CONFIGURATOR-COUPONCODE: "Rabattcode &quot;blackweek&quot;"
+  CONFIGURATOR-TOTAL: "Gesamtpreis"
