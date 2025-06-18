@@ -205,7 +205,7 @@ replacements:
   VARIABLE-DATASTORE-FEATURE3: "Dynamisch erweiterbar in 100 GB-Schritten"
   VARIABLE-DATASTORE-FEATURE4: "24/7 Panel für Verwaltung und Logs"
   VARIABLE-DATASTORE-PRICE-TITLE: "Preise"
-  VARIABLE-DATASTORE-PRICE-SMALLTEXT: "*Abrechnung stündlich nach gebuchtem Volumen"
+  VARIABLE-DATASTORE-PRICE-SMALLTEXT: "Abrechnung stündlich nach gebuchtem Volumen"
   VARIABLE-DATASTORE-CTA: "Jetzt Datastore mieten"
   VARIABLE-DATASTORE-PAYMENTINFO: "Prepaid – keine Vertragsbindung"
   VARIABLE-DATASTORE-LOCATION-TITLE: "Made in Germany"
