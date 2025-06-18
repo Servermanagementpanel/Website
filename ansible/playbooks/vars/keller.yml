@@ -198,7 +198,7 @@ replacements:
 #DATASTORE
   VARIABLE-DATASTORE-HERO-TITLE: "Backup Datastore"
   VARIABLE-DATASTORE-HERO-SUBTITLE: "Flexible Speicher für deine Proxmox Backup Server Sicherungen."
-  VARIABLE-DATASTORE-DESCRIPTION1: "Miete deduplizierten Speicherplatz ab 100 GB – voll kompatibel mit Proxmox Backup Server. Bezahle nur das gebuchte Volumen, bequem per Prepaid."
+  VARIABLE-DATASTORE-DESCRIPTION1: "Miete deduplizierten Speicherplatz ab 100 GB – voll kompatibel mit Proxmox Backup Server. Bezahle nur das gebuchte Volumen, bequem und Prepaid."
   VARIABLE-DATASTORE-FEATURES-TITLE: "Highlights"
   VARIABLE-DATASTORE-FEATURE1: "Deduplizierter Speicher – spart Platz und Traffic"
   VARIABLE-DATASTORE-FEATURE2: "Standorte Frankfurt & Hamburg"
