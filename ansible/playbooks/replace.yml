@@ -17,6 +17,7 @@
     - ../../contact/index.html
     - ../../Privacy/index.html
     - ../../Imprint/index.html
+    - ../../datastores/index.html
 
   tasks:
     - name: Ping
