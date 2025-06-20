@@ -193,7 +193,7 @@ replacements:
   VARIABLE-FOOTER-NETWORK-POINT2: "- BYOASN auf Anfrage kostenlos möglich"
   VARIABLE-FOOTER-NETWORK-POINT3: "- buchen von weiteren IP-Adressen auf Anfrage möglich"
   VARIABLE-FOOTER-SOCIAL-TITLE: "Folge uns auf:"
-  VARIABLE-FOOTER-COPYRIGHT: "Copyright 2024 - Servermanagementpanel"
+  VARIABLE-FOOTER-COPYRIGHT: "Copyright 2025 - Servermanagementpanel"
 
 #DATASTORE
   VARIABLE-DATASTORE-HERO-TITLE: "Backup Datastore"
